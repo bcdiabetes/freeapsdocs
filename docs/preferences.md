@@ -1,5 +1,5 @@
 # Preferences
-Note: FreeAPS X is the iPhone app. It utilizes the OpenAPS algorithm for determining insulin dosing.
+Note: FreeAPS X is the iPhone app. It implements the OpenAPS algorithm to determine insulin dosing.
 
 ## FreeAPS X
 
@@ -13,7 +13,7 @@ Allows for remote control of FAX using Nightscout.
 <br><span style="color:red";>
 We want to highlight a very important risk before you get started.
 <br><br>
-For safety, always assume a previous remote carb / bolus was delivered despite whether it shows in Nightscout FreeAPS X. For motivation think of the following example:
+For safety, always assume a previous remote carb / bolus was delivered whether it shows in Nightscout FreeAPS X. For motivation think of the following example:
 <br><br>
 You send a 5 unit remote bolus.
 The bolus is delivered to the Looper.
@@ -47,21 +47,9 @@ Recommended insulin fraction allows you to alter the amount initially delivered.
 After entering carbs, a mealtime bolus will not be suggested or delivered.
 
 ### Display HR on Watch
-Displays your heart rate on your iWatch FreeAPS X app
+Displays your "heart rate" on your iWatch FreeAPS X app
 
-
-For Loopers Using Libre as  CGM
-What is a heartbeat and why should it come from a CGM?
-For optimum performance, the app should be driven by the continuous glucose monitor (CGM) so the Loop cycle starts with the most recent glucose information available, updates the glucose prediction and then sends commands to the pump, if needed, to modify insulin delivery.
-
-When the phone is locked, a mechanism is required to “wake” up the app out of background mode so it can keep that loop symbol a nice green color.
-
-A Bluetooth connection is used by Loop to perform this waking from background while the phone is locked.  This is called the heartbeat.
-
-Best case – this comes from the CGM (this is the case with Dexcom where app is on the Looper’s phone)
-Second best case – this comes from the RileyLink device (for Eros or Medtronic)
-With DASH pods, there is no reliable heartbeat that works all of the time when the phone is locked
-In order to solve this problem, the folks who work with Libre sensors make the Bluetooth connection available to Loop. This is an area where more progress may happen, but for now, it is xDrip4iOS that has this feature working with Loop. Follow the heartbeat instructions below to get best performance using Libre and allow continued looping while phone is locked.
+Heart rate or heartbeat refers to the wake timer that drives the app when running in the background.For optimum performance, the app should be driven by the continuous glucose monitor (CGM) so the Loop cycle starts with the most recent glucose information available, updates the glucose prediction and then sends commands to the pump, if needed, to modify insulin delivery.
 
 ### Display Statistics
 Visual: Displays statistics including Time in range (TIR), coefficent of variance (CV) and estimated A1c at the bottom of the main screen. 
@@ -107,42 +95,44 @@ Default is set to zero meaning FreeAPS X can only set temporary basal rates lowe
 
 You can start by increasing this number to your average mealtime bolus and evaluating its effect. The default recommendation is “average mealbolus + 3x max daily basal” when using super micro boluses.
 
-Ex: If you average mealtime bolus is 6 U, and you have the following basal profile:
+Ex: Bill has an average mealtime bolus of 6 U, and the following basal profile:
 
 - 12am: 1 U/hr
 - 6pm: 2 U/hr (this is the "max" basal used) 
 - 9pm: 1.5 U/hr 
 
-Your recommended IOB = 6 + 3 * 2 = 15 U. 
+Using the formula “average mealbolus + 3x max daily basal,” his recommended IOB = 6 + 3 * 2 = 12 U. 
 
-If you are insulin resistance, you can continue to increase this number further to allow for greater insulin delivery.
+If you are insulin resistance and/or need help dealing with meal spikes, you can continue to increase this number further to allow for greater insulin delivery.
 
 ### Max COB
-The maximum amount of carbs that FreeAPS X is allowed to dose for. This is a safety feature that protects against erroneous carbohydrate entries that could lead to hypoglycemia episodes.
+The maximum amount of carbs that FreeAPS X is allowed to manually bolus for. This is a safety feature that protects against erroneous carbohydrate entries that could lead to hypoglycemia episodes.
 
-Choose the maximum amount of carbs you bolus for
+Choose the maximum amount of carbs you eat with meals.
 
 ### Max Daily Safety Multiplier
 Limits the maximum temporary basal rate FreeAPS X is able to use at **any time. The default setting of 3, which is unlikely to need adjustment, allows for a maximum basal rate of 3x the max daily basal.
 
-Ex: If you have the following basal profile:
+Ex: Bill has the following basal profile:
 
 - 12am: 1 U/hr
 - 6pm: 2 U/hr (this is the "max" basal used) 
 - 9pm: 1.5 U/hr 
+
+It is 7 am so FreeAPS X has been scheduled to deliver 1 U/hr. But Bill is running high so FreeAPS X wants to deliver more.
 
 The maximum temporary basal rate that can be set is 2 U/hr * 3 = 6 U/hr
 
 ### Current Basal Safety Multiplier 
 Limits the maximum temporary basal rate FreeAPS X is able to use at the **current time. The default setting of 4, which is unlikely to need adjustment, allows for a maxium basal rate of 4x the current basal rate. 
 
-Ex: If it is currently 9am and you have the following basal profile:
+Ex: It is currently 9am and Bill has the following basal profile:
 
 - 12am: 1 U/hr
 - 6pm: 2 U/hr (this is the "max" basal used) 
 - 9pm: 1.5 U/hr 
 
-The maximum temporary basal rate that can be set by FreeAPS X at 9am is 1 U/hr * 4 = 4 U/hr
+The maximum temporary basal rate that can be set by FreeAPS X at 9 am is 1 U/hr * 4 = 4 U/hr
 
 ### Autosens Max
 Please read <a href="/autosens-dynamic">Autosense and Dynamic ISF/ICR</a> and <a href="/autotune">Autotune</a> before adjusting this setting.
@@ -166,7 +156,7 @@ If you have autotune enabled, this setting also limits its ability to make less 
 ### Enable Dynamic ISF
 Please read <a href="/autosens-dynamic">Autosense and Dynamic ISF/ICR</a> for more information.
 
-Dynamic ISF is a more aggressive alternative to autosense's ISF adjustment algorithm. Turn this on if you believe yourself to be highly resistant to insulin at some points in the day and autosense does not adequately alter your ISF to deal with it.
+Dynamic ISF is a more aggressive alternative to autosense's ISF adjustment algorithm. Turn this on if you believe yourself to be highly resistant to insulin at some points in the day and autosense does not adequately alter your ISF to compensate for it.
 
 ### Enable Dynamic CR
 Please read <a href="/autosens-dynamic">Autosense and Dynamic ISF/ICR</a> for more information.
@@ -264,7 +254,7 @@ If you already have "Enable SMB Always" on, this feature is redundent and does n
 See the above setting for more information. This allows you to configure the target at which SMBs will be enabled.
 
 ### Enable UAM
-With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell FreeAPS X about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasements caused by carbs, adrenaline, etc, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier.
+With this option enabled, the SMB algorithm can recognize unannounced meals. This is helpful if you forget to tell FreeAPS X about your carbs or estimate your carbs wrong and the amount of entered carbs is wrong or if a meal with lots of fat and protein has a longer duration than expected. Without any carb entry, UAM can recognize fast glucose increasements caused by carbs, illnesss, or counterregulatory hormones, and tries to adjust it with SMBs. This also works the opposite way: if there is a fast glucose decreasement, it can stop SMBs earlier.
 
 ### Max SMB Basal Minutes
 Max SMB Basal minutes is one of the major limiters of the size of SMBs. For more information on what limit's SMB size, please view<a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb"> the OpenAPS documentation.</a> SMBs are limited by the amount of scheduled basal insulin in your profile settings.
