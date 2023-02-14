@@ -29,17 +29,45 @@ theme:
           name: Switch to light mode
 nav:
 - Home: 'index.md'
+- Intro:
+    - 'Requirements':
+        - 'Compatible Mac': 'intro/requirements/mac.md'
+        - 'Compatible iPhone': 'intro/requirements/iphone.md'
+        - 'Compatible CGM': 'intro/requirements/cgm.md'
+        - 'Compatible Pump': 'intro/requirements/pump.md'
+    - 'Installing':
+        - 'Testflight': 'intro/installing/testflight.md'
+        - 'Building': 'intro/installing/building.md'
+
 - Set Up:
-    - 'Preferences': 
-        - 'Review': 'configuration/preferences/review.md'
-        - 'Section 1: FreeAPS X': 'configuration/preferences/freeapsx.md'
-        - 'Section 2: Statistics': 'configuration/preferences/statistics.md'
-        - 'Section 3: Main Settings': 'configuration/preferences/mainsettings.md'
-        - 'Section 4: Dynamic Settings': 'configuration/preferences/dynamicsettings.md'
-        - 'Section 5: SMB Settings': 'configuration/preferences/smbsettings.md'
-        - 'Section 6: Target Settings': 'configuration/preferences/targetsettings.md'
-        - 'Section 7: Other Settings': 'configuration/preferences/othersettings.md'
-    - 'Features':
-        - 'Autobolus': 'configuration/concepts/smb-uam.md'
-        - 'Autotune': 'configuration/concepts/autotune.md'
-        - 'Auto-sensitivity': 'configuration/concepts/autosens-dynamic.md'
+    - 'Configuration':
+        - 'Preferences': 
+            - 'Review': 'settings/configuration/preferences/review.md'
+            - 'Section 1: FreeAPS X': 'settings/configuration/preferences/freeapsx.md'
+            - 'Section 2: Statistics': 'settings/configuration/preferences/statistics.md'
+            - 'Section 3: Main Settings': 'settings/configuration/preferences/mainsettings.md'
+            - 'Section 4: Dynamic Settings': 'settings/configuration/preferences/dynamicsettings.md'
+            - 'Section 5: SMB Settings': 'settings/configuration/preferences/smbsettings.md'
+            - 'Section 6: Target Settings': 'settings/configuration/preferences/targetsettings.md'
+            - 'Section 7: Other Settings': 'settings/configuration/preferences/othersettings.md'
+            - 'Concepts':
+                - 'Basal, ISF, ICR': 'settings/configuration/concepts/basal-isf-icr.md'
+                - 'Autobolus': 'settings/configuration/concepts/smb-uam.md'
+                - 'Autotune': 'settings/configuration/concepts/autotune.md'
+                - 'Auto-sensitivity': 'settings/configuration/concepts/autosens-dynamic.md'
+        - 'Pump Settings': 'settings/configuration/pumpsettings.md'
+        - 'Basal Profile': 'settings/configuration/basalprofile.md'
+        - 'Insulin Sensitivities': 'settings/configuration/insulinsensitivites.md'
+        - 'Carb Ratios': 'settings/configuration/carbratios.md'
+        - 'Target Ranges': 'settings/configuration/targetranges.md'
+        - 'Autotune': 'settings/configuration/autotune.md'
+
+# Troubleshooting and optimizing settings
+- Trouble: 
+    - 'Debug': "troubleshoot/debug.md"
+    - 'Logs': "troubleshoot/logs.md"
+
+- Resources:
+    - 'Resources': 'resources/resources.md'
+
+  
