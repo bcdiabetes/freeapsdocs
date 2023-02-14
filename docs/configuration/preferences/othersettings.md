@@ -6,7 +6,7 @@ When you change the insulin injection site, you might find your insulin sensitiv
 
 This setting resets autosens's calculated autosens.ratio and forces it to restart anew from the time of the site change to improve your calculated basal rates, sensitivity ratio and target blood glucose.
 
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 ## Use Custom Peak Time
 Allows you to optimize at what time your insulin has maximum activity if the defaults do not work for you.
 
