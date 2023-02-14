@@ -4,7 +4,7 @@
 The first place to start if you want to learn more about the underlying algorithm, is the extensive [OpenAPS documenation](https://openaps.readthedocs.io/). OpenAPS is the underlying algorithm that FreeAPS X implements to control blood sugar, with small modifications mostly pertaining to the Dynamic settings. 
 
 ## AndroidAPS Documentation
-Android APS implements the same OpenAPS algorithm with dynamic enhancements and maintains an [extensive documentation](https://androidaps.readthedocs.io/) for new users. Recommend if you have additional questions, you skim through its documentation for your answer.
+AndroidAPS implements the same OpenAPS algorithm with dynamic enhancements and maintains an [extensive documentation](https://androidaps.readthedocs.io/) for new users. Recommend if you have additional questions, you skim through its documentation for your answer.
 
 ## Loop Documentation
 FreeAPS X is a fork of Loop. While their underlying algorithms are different, they share some parts of their code base. Its recommended you take a quick glance in the [Loop Docs](https://loopkit.github.io/loopdocs/) for your issue, especially if it relates to pump usage and build errors.
