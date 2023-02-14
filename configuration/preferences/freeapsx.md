@@ -1,9 +1,9 @@
-## FreeAPS X
+# FreeAPS X
 
-### Glucose Units
+## Glucose Units
 Allows you to toggle between mmol/L and mg/dl blood glucose units.
 
-### Remote Control
+## Remote Control
 Allows for remote control of FAX using Nightscout.
 
 **Duplicate Delivery Risk**
@@ -35,20 +35,20 @@ To configure loop status, pump or to bolus, select the "announcement" event type
 
 Note that remote configurations with announcement-type events can only be performed every 10 minutes.
 
-### Recommended Insulin Fraction
+## Recommended Insulin Fraction
 Recommended insulin fraction is a safety feature built into FreeAPS X. By default, FreeAPS X calculates an "insulin required" value when bolusing for carbs that is half of the insulin actually needed to deal with said meal. FreeAPS X then delivers the remaining insulin via SMBs as the blood sugar starts to rise.
 
 Recommended insulin fraction allows you to alter the amount initially delivered. At its default (1.5), it results in 75% of the required meal bolus being delivered before the meal. You can increase or decrease this to alter the insulin delivered prior to the meal.
 
-### Skip Bolus screen after carbs
+## Skip Bolus screen after carbs
 After entering carbs, a mealtime bolus will not be suggested or delivered.
 
-### Display HR on Watch
+## Display HR on Watch
 Displays your "heart rate" on your iWatch FreeAPS X app
 
 Heart rate or heartbeat refers to the wake timer that drives the app when running in the background.For optimum performance, the app should be driven by the continuous glucose monitor (CGM) so the Loop cycle starts with the most recent glucose information available, updates the glucose prediction and then sends commands to the pump, if needed, to modify insulin delivery.
 
-### Display Statistics
+## Display Statistics
 Visual: Displays statistics including Time in range (TIR), coefficent of variance (CV) and estimated A1c at the bottom of the main screen. 
 
 For advanced users: Enabling this settings also allows FreeAPS X to sync your statistics to the Nightscout API.
