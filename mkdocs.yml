@@ -40,6 +40,15 @@ nav:
         - 'Building': 'intro/installing/building.md'
 
 - Set Up:
+    - 'Devices':
+        - 'CGM': 'settings/devices/cgm.md'
+        - 'Pump': 'settings/devices/pump.md'
+
+    - 'Services':
+        - 'Apple Health': 'settings/services/applehealth.md'
+        - 'Nightscout': 'settings/services/nightscout.md'
+        - 'Notifications': 'settings/services/notifications.md'
+
     - 'Configuration':
         - 'Preferences': 
             - 'Review': 'settings/configuration/preferences/review.md'
