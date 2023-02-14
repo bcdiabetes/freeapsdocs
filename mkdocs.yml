@@ -4,7 +4,32 @@ plugins:
 theme:
   name: material
   features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
+      - navigation.footer
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.tracking
+      - navigation.top
+      - search.suggest
+      - search.highlight
+      - content.code.annotate
+      - content.code.copy
+      - content.tooltips
+  palette:
+        # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+nav:
+- Home: 'index.md'
+- Preferences:
+    - 'Summary': 
+        - 'Review': 'configuration/preferences/review.md'
+        - 'Section 1: FreeAPS X': 'configuration/preferences/freeapsx.md'
