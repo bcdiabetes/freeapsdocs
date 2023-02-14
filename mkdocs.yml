@@ -72,7 +72,7 @@ nav:
         - 'Autotune': 'settings/configuration/autotune.md'
 
 # Troubleshooting and optimizing settings
-- Trouble: 
+- Troubleshoot: 
     - 'Debug': "troubleshoot/debug.md"
     - 'Logs': "troubleshoot/logs.md"
 
