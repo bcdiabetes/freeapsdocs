@@ -10,7 +10,7 @@ Enter your insulin type for the appropriate response curve to be used by the alg
 
 Note that the duration of insulin (DIA) action can be altered in the pump settings section of FreeAPS X. A minimum of 5 hours is required.
 
-<a href="https://www.diabettech.com/insulin/why-we-are-regularly-wrong-in-the-duration-of-insulin-action-dia-times-we-use-and-why-it-matters/">To understand why a higher duration of insulin action is used in FreeAPS X, click to see the following documentation.</a>
+[To understand why a higher duration of insulin action is used in FreeAPS X, click to see the following documentation.](https://www.diabettech.com/insulin/why-we-are-regularly-wrong-in-the-duration-of-insulin-action-dia-times-we-use-and-why-it-matters/)
 
 ## Max IOB
 The maximum amount of insulin on board (i.e. in the body). This includes insulin from all sources (basal and bolus) that is automatically delivered by FreeAPS X. Manual boluses are not subjected to this limiter. 
@@ -59,7 +59,7 @@ Ex: It is currently 9am and Bill has the following basal profile:
 The maximum temporary basal rate that can be set by FreeAPS X at 9 am is 1 U/hr * 4 = 4 U/hr
 
 ## Autosens Max
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> and <a href="/autotune">Autotune</a> before adjusting this setting.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) and [Autotune](../concepts/autotune.md) before adjusting this setting.
 
 This setting determines the maximum ratio autosens can use for its adjustments. Increasing this value allows autosens to make more aggressive adjustments to your basal profile, ISF, and target blood glucose.
 
@@ -68,7 +68,7 @@ If you have Dynamic ISF and/or Dynamic CR, this setting will also limit their ab
 If you have autotune enabled, this setting also limits its ability to make more aggressive adjustments to your ICR, basal profile and ISF.
 
 ## Autosens Min
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> and <a href="/autotune">Autotune</a> before adjusting this setting.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) and [Autotune](../concepts/autotune.md) before adjusting this setting.
 
 This setting determine the minimum ratio autosens can use for its adjustments. Decreasing this value allows autosens to make less aggressive adjustments to your basal profile, ISF, and target blood glucose.
 

@@ -1,16 +1,16 @@
 # Dynamic Settings
 ## Enable Dynamic ISF
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
 Dynamic ISF is a more aggressive alternative to autosens's ISF adjustment algorithm. Turn this on if you believe yourself to be highly resistant to insulin at some points in the day and autosens does not adequately alter your ISF to compensate for it.
 
 ## Enable Dynamic CR
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
 Dynamic CR alters your ICR every loop cycle based on your current blood glucose and TDD of insulin. Turn it on if you experience your ICR changes day-to-day or at different blood glucose levels and FreeAPS X is not consistently suggesting appropriate boluses. You should rule out other causes for this first including inadequate carb counting or inappropriate profile ICR.
 
 ## Adjustment Factor
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
 Adjustment Factor (AF) allows one to bias the Dynamic ISF and Dynamic CR (if they are enabled) towards more or less aggressive results. Maintaining this value at 1 keeps Dynamic ISF/CR at its default. Increasing AF above 1 will result in Dynamic ISF/CR outputting more aggressive values, while decreasing it below 1 will bias the output towards less aggressive values.
 
@@ -23,14 +23,14 @@ It is important to understand that AF is not a safety limiter. By increasing the
 The same is true when you lower AF. You are telling the system that ALL dynamically calculated values are too aggressive, and to make them lower.
 
 ## Use Sigmoid Function
-Dynamic CR and ISF by default use a logarithmic function to perform calculations. Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information. 
+Dynamic CR and ISF by default use a logarithmic function to perform calculations. Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
 This option replaces the logarithmic function with a sigmoid function for Dynamic ISF/CR calculations and alters how AF affects their values (AF becomes akin to a safety limiter unlike how it was used in the logarithmic function).
 
 More information to this section will be added soon. Use this feature at your own risk. Set your AF to half of its current value if you decide to do so, and adjust from there.
 
 ## Weighted Average of TDD. Weight of past 24 hours:
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
 This ratio is used by "Adjust basal" for its calculations. It allows you to effectively control how dynamic basal adjustments are (if Adjust basal is enabled). You can increase the number to a max of 1 make them more dynamic, and decrease them to a minimum of 0 make them less dynamic. The default of 0.65 means that the system will use 65% of the TDD over the last 24 hours for its calculations, and 35% of TDD over the last 2 weeks.
 
@@ -40,7 +40,7 @@ Example: Bill has a TDD of 55 U over the last 24 hours. He has had a TDD of 48 U
 As you increase the default 0.65 ratio to a higher number, the basal rates will be more so determined by your last 24 hour insulin usage, resulting in more dramatic changes.
 
 ## Adjust basal
-Please read <a href="/autosens-dynamic">Autosens and Dynamic ISF/ICR</a> for more information.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
 Adjust basal replaces the sensitivity-based formula normally used by autosens for adjusting your basal rates, with one dependent on your TDD of insulin. Use this if FreeAPS X is not by default suggesting adequate basal rates for you.
 
