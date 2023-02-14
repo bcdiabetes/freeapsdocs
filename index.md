@@ -1,4 +1,3 @@
-# Home
 # Welcome to FreeAPS X documentation for BC Diabetes 
 Read through the information provided in preferences and other linked resources. For a review on basal rates, insulin carb ratio (ICR) and insulin sensitivity factor (ISF), <a href="/basal-isf-icr">click here</a>.
 

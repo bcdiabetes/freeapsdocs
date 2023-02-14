@@ -29,7 +29,17 @@ theme:
           name: Switch to light mode
 nav:
 - Home: 'index.md'
-- Preferences:
-    - 'Summary': 
+- Set Up:
+    - 'Preferences': 
         - 'Review': 'configuration/preferences/review.md'
         - 'Section 1: FreeAPS X': 'configuration/preferences/freeapsx.md'
+        - 'Section 2: Statistics': 'configuration/preferences/statistics.md'
+        - 'Section 3: Main Settings': 'configuration/preferences/mainsettings.md'
+        - 'Section 4: Dynamic Settings': 'configuration/preferences/dynamicsettings.md'
+        - 'Section 5: SMB Settings': 'configuration/preferences/smbsettings.md'
+        - 'Section 6: Target Settings': 'configuration/preferences/targetsettings.md'
+        - 'Section 7: Other Settings': 'configuration/preferences/othersettings.md'
+    - 'Features':
+        - 'Autobolus': 'configuration/concepts/smb-uam.md'
+        - 'Autotune': 'configuration/concepts/autotune.md'
+        - 'Auto-sensitivity': 'configuration/concepts/autosens-dynamic.md'

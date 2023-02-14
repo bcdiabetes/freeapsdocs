@@ -1,7 +1,7 @@
 # Basal, ISF and ICR
 
 ## Basal Profile
-Basal profile contains your scheduled basal rates which controls how much insulin is delivered at each hour of the day. It is important to understand that these settings are not taken verbaitam by when looping. They will be adjusted on the fly, being replaced with temporary basal rates throughout the day, based on your current blood sugar reading. Your set values will also be altered by autosense and autotune to a certain degree if FreeAPS X does not believe them to be quite accurate.
+Basal profile contains your scheduled basal rates which controls how much insulin is delivered at each hour of the day. It is important to understand that these settings are not taken verbaitam by when looping. They will be adjusted on the fly, being replaced with temporary basal rates throughout the day, based on your current blood sugar reading. Your set values will also be altered by autosens and autotune to a certain degree if FreeAPS X does not believe them to be quite accurate.
 
 Still, your basal profile values should be near your true value without relying on FreeAPS X's algorithm. Safety limiters could prevent FreeAPS X from automatically selecting the appropriate dose for you if your scheduled basal is too inaccurate.
 
