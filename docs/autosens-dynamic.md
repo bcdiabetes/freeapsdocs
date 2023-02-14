@@ -1,7 +1,5 @@
 # Autosense, Dynamic ISF/ICR and Adjust Basal
 ## Auto-sensitivity Mode
-- Note to check if AF affects autosens
-
 Auto-sensitivity (autosense or autosens) reviews your last 8 hrs and 24 hrs of data every loop cycle (5 min) and determines whether you have been reacting more or less sensitively to insulin. It then makes conservative temporary adjustments to your basal rates, blood sugar target, and ISF.
 
 Example:
