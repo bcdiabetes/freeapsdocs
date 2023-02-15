@@ -61,16 +61,22 @@ plugins:
 
 nav:
 - Home: 'index.md'
-- Intro:
+
+- Intro: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
     - 'Requirements':
-        - 'Compatible Mac': 'intro/requirements/mac.md'
         - 'Compatible iPhone': 'intro/requirements/iphone.md'
         - 'Compatible CGM': 'intro/requirements/cgm.md'
         - 'Compatible Pump': 'intro/requirements/pump.md'
+        - 'RileyLink': 'intro/rileylink.md'
     - 'Installing':
-        - 'Testflight': 'intro/installing/testflight.md'
-        - 'Building': 'intro/installing/building.md'
-
+        - 'Apple Developer Program': 'intro/installing/appledeveloper.md'
+        - 'Compatible Mac': 'intro/installing/macbuild/computer.md'
+        - 'Download Xcode': 'intro/installing/macbuild/xcode.md'
+        - 'Xcode Preferences': 'intro/installing/macbuild/xcodepref.md'
+        - 'Building': 'intro/installing/macbuild/buildpaid.md'
+        - 'Build Free': 'intro/installing/macbuild/buildfree.md'
+        - 'Testflight': 'intro/installing/macbuild/buildtestflight.md'
+        
 - Set Up:
     - 'Devices':
         - 'CGM': 'settings/devices/cgm.md'
@@ -102,9 +108,11 @@ nav:
         - 'Carb Ratios': 'settings/configuration/carbratios.md'
         - 'Target Ranges': 'settings/configuration/targetranges.md'
         - 'Autotune': 'settings/configuration/autotune.md'
+    - 'Test Settings': 'settings/configuration/test.md'
 
 # Troubleshooting and optimizing settings
 - Troubleshoot: 
+    - 'Build Errors': "troubleshoot/builderror.md" # Adapt from loopdocs
     - 'Debug': "troubleshoot/debug.md"
     - 'Logs': "troubleshoot/logs.md"
 
