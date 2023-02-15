@@ -79,6 +79,7 @@ nav:
     - 'Logs': "troubleshoot/logs.md"
 
 - Resources:
-    - 'Resources': 'resources/resources.md'
+    - 'Citations': 'resources/citations.md'
+    - 'BC Diabetes Agreement': 'resources/bcdiabetesagreement.md'
 
   
