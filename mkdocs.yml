@@ -62,12 +62,12 @@ plugins:
 nav:
 - Home: 'index.md'
 
-- Intro: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
+- Installing: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
     - 'Requirements':
         - 'Compatible iPhone': 'intro/requirements/iphone.md'
         - 'Compatible CGM': 'intro/requirements/cgm.md'
         - 'Compatible Pump': 'intro/requirements/pump.md'
-        - 'RileyLink': 'intro/rileylink.md'
+        - 'RileyLink': 'intro/requirements/rileylink.md'
     - 'Installing':
         - 'Apple Developer Program': 'intro/installing/appledeveloper.md'
         - 'Compatible Mac': 'intro/installing/macbuild/computer.md'
@@ -77,7 +77,7 @@ nav:
         - 'Build Free': 'intro/installing/macbuild/buildfree.md'
         - 'Testflight': 'intro/installing/macbuild/buildtestflight.md'
         
-- Set Up:
+- Set Up: # Configuring the app
     - 'Devices':
         - 'CGM': 'settings/devices/cgm.md'
         - 'Pump': 'settings/devices/pump.md'
@@ -109,6 +109,9 @@ nav:
         - 'Target Ranges': 'settings/configuration/targetranges.md'
         - 'Autotune': 'settings/configuration/autotune.md'
     - 'Test Settings': 'settings/configuration/test.md'
+
+- Operate: # Operating the app day to day
+    - 'Open vs Closed Loop': 'operate/loop.md'
 
 # Troubleshooting and optimizing settings
 - Troubleshoot: 
