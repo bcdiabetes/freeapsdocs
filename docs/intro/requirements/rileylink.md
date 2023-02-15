@@ -76,7 +76,3 @@ Sections of interest include:
 While you are waiting for the RileyLink compatible device to arrive, you can proceed with these build directions and can try one of the [Simulated Loop](../version/simulator.md) options. After that, unless you are using Omnipod DASH, you'll have to wait for your device.
 
 The population of DIY loopers (Loop and Android APS) has grown enough that you might be able to find someone local to loan you their spare.
-
-## Next Step: Enroll in Apple Developer Program
-
-Now you are ready to enroll in the [Apple Developer Program](step6.md).
