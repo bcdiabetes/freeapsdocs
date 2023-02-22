@@ -62,7 +62,7 @@ plugins:
 nav:
 - Home: 'index.md'
 
-- Installing: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
+- Set Up: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
     - 'Requirements':
         - 'Compatible iPhone': 'intro/requirements/iphone.md'
         - 'Compatible CGM': 'intro/requirements/cgm.md'
@@ -77,7 +77,7 @@ nav:
         - 'Build Free': 'intro/installing/macbuild/buildfree.md'
         - 'Testflight': 'intro/installing/macbuild/buildtestflight.md'
         
-- Set Up: # Configuring the app
+- Configure: # Configuring the app
     - 'Devices':
         - 'CGM': 'settings/devices/cgm.md'
         - 'Pump': 'settings/devices/pump.md'
@@ -89,7 +89,6 @@ nav:
 
     - 'Configuration':
         - 'Preferences': 
-            - 'Review': 'settings/configuration/preferences/review.md'
             - 'Section 1: FreeAPS X': 'settings/configuration/preferences/freeapsx.md'
             - 'Section 2: Statistics': 'settings/configuration/preferences/statistics.md'
             - 'Section 3: Main Settings': 'settings/configuration/preferences/mainsettings.md'
