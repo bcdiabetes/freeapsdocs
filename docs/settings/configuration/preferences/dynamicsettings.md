@@ -1,3 +1,8 @@
+!!! abstract "Important Settings"
+    - Dynamic ISF and Dynamic CR: Enable for more responsive changes to your current blood glucose and TDD. 
+    - Adjustment Factor: Greater 1 makes Dynamic ISF/CR more aggressive (more insulin), while lower than 1 makes Dynamic ISF/CR less aggressive. Adjust by 0.1 steps as needed.
+    - Adjust basal: Enable if your basal rates are otherwise not being adjusted adequately 
+
 # Dynamic Settings
 ## Enable Dynamic ISF
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
@@ -32,12 +37,12 @@ More information to this section will be added soon. Use this feature at your ow
 ## Weighted Average of TDD. Weight of past 24 hours:
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
-This ratio is used by "Adjust basal" for its calculations. It allows you to effectively control how dynamic basal adjustments are (if Adjust basal is enabled). You can increase the number to a max of 1 make them more dynamic, and decrease them to a minimum of 0 make them less dynamic. The default of 0.65 means that the system will use 65% of the TDD over the last 24 hours for its calculations, and 35% of TDD over the last 2 weeks.
+This ratio is used by "Adjust basal" for its calculations. It allows you to effectively control the variability of basal adjustments (if Adjust basal is enabled). You can increase the number to a max of 1 make them more dynamic, and decrease them to a minimum of 0 make them less dynamic. The default of 0.65 means that the system will use 65% of the TDD over the last 24 hours for its calculations, and 35% of TDD over the last 2 weeks.
 
 Example: Bill has a TDD of 55 U over the last 24 hours. He has had a TDD of 48 U over the last 14 days. His Weighted Average is set at 0.65:
 - TDD Average = 55 * 0.65 + 48 * 0.35 = 52.55
 
-As you increase the default 0.65 ratio to a higher number, the basal rates will be more so determined by your last 24 hour insulin usage, resulting in more dramatic changes.
+As you increase the default 0.65 ratio to a higher number, the basal rates will be more so determined by your last 24 hour insulin usage, resulting in more variable changes.
 
 ## Adjust basal
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
@@ -53,6 +58,6 @@ The threshold setting is a safety limiter function. If blood sugar at any point 
 - Lower Target: 130 mg/dl = Threshold 85 mg/dl 
 
 
-This setting allows you to choose a higher threshold setting than default. Note that you cannot choose something that is lower than the default setting.
+This setting allows you to choose a higher threshold setting than default. Note that you cannot choose something that is lower than the default setting for a certain blood glucose target.
 
 Ex: Bill has set a BG target of 110 mg/dl. He has set his threshold to 65 mg/dl in his FreeAPS X preferences. Because FreeAPS X's default threshold setting is 75 mg/dl for 110 mg/dl blood glucose target, Bill's preference will be ignored.

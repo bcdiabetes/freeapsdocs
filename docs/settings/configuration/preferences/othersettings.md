@@ -1,4 +1,7 @@
-# OpenAPS Other Settings
+!!! abstract "Important Settings"
+    None of these settings likely require adjustment from their defaults
+
+ OpenAPS Other Settings
 ## Rewind Resets Autosens
 Rewind in Medtronic lingo refers to the attachment of a new insulin reservoir and infusion set. For Omnipod users, this means replacing your pod with a new one.
 
@@ -14,9 +17,9 @@ Allows you to optimize at what time your insulin has maximum activity if the def
 Requires "Use Custom Peak Time" to be enabled. Select a peak activity time point, within the limits set by OpenAPS based on your insulin type.
 
 ## Skip Neutral Temps
-This is a feature that has been brought from the OpenAPS algoirtm but does not play much role in FreeAPS X. Light sleepers with OpenAPS would find that the notifications every time OpenAPS made a temp basal adjustment, would wake them up from sleep. 
+This is a feature that has been brought from the OpenAPS algorithm but does not play much role in FreeAPS X. Light sleepers using OpenAPS would find that the notifications delivered by OpenAPS upon making a temp basal adjustment, would wake them up. 
 
-This setting attempts to reduce notifications that are produced by OpenAPS (and FreeAPS X) with the downside of perhaps impacting control and making it harder to see if the system is working.
+This setting attempts to reduce notifications that are produced by OpenAPS (and FreeAPS X) with the downside of potentially impacting control and making it harder for users to determine if the system is working.
 
 Recommend to keep this setting disabled.
 
