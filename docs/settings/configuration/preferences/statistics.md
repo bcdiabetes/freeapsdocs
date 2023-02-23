@@ -1,3 +1,6 @@
+!!! abstract "Summary"
+    This section is entirely visual and does not impact control. 
+
 # Statistics
 These settings are purely visual and configure the statistical collection.
 
