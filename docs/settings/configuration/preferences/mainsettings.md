@@ -1,5 +1,4 @@
 !!! abstract "Summary"
-    This section is primarly safety limiters. The following settings are commonly adjusted:
     - Insulin curve: Choose your insulin type
     - Max IOB: Use the formula "average mealbolus + 3x max daily basal" to determine your Max IOB
     - Autosens Max/Min - Increase the autosens Max to allow the system to choose more aggressive autotune and autosens values if needed. Do the same with autosens Min if you want the system to choose less aggressive autotune and autosens values if needed. You may need this if you believe your inputted profile settings are inadequate.
