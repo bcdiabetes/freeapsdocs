@@ -29,8 +29,6 @@ theme:
           name: Switch to light mode
 
 markdown_extensions:
-    - include-markdown
-    - meta
     - abbr
     - admonition
     - attr_list
@@ -58,6 +56,7 @@ extra_javascript:
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
+    - include-markdown
     - search
 
 nav:
