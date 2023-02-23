@@ -1,3 +1,9 @@
+!!! abstract "Summary"
+    This section is primarly safety limiters. The following settings are commonly adjusted:
+    - Insulin curve: Choose your insulin type
+    - Max IOB: Use the formula "average mealbolus + 3x max daily basal" to determine your Max IOB
+    - Autosens Max/Min - Increase the autosens Max to allow the system to choose more aggressive autotune and autosens values if needed. Do the same with autosens Min if you want the system to choose less aggressive autotune and autosens values if needed. You may need this if you believe your inputted profile settings are inadequate.
+
 # OpenAPS Main Settings
 ## Insulin Curve
 Enter your insulin type for the appropriate response curve to be used by the algorithm:
@@ -30,9 +36,9 @@ Using the formula “average mealbolus + 3x max daily basal,” his recommended 
 If you are insulin resistance and/or need help dealing with meal spikes, you can continue to increase this number further to allow for greater insulin delivery.
 
 ## Max COB
-The maximum amount of carbs that FreeAPS X is allowed to manually bolus for. This is a safety feature that protects against erroneous carbohydrate entries that could lead to hypoglycemia episodes.
+The maximum amount of carbs that FreeAPS X is allowed to bolus or set high temp targets for. This is a safety feature that protects against erroneous carbohydrate entries that could lead to hypoglycemia episodes.
 
-Choose the maximum amount of carbs you eat with meals.
+If you tend to eat more than 120 g of carbs in one sitting, choose the maximum amount of carbs you eat.
 
 ## Max Daily Safety Multiplier
 Limits the maximum temporary basal rate FreeAPS X is able to use at **any time. The default setting of 3, which is unlikely to need adjustment, allows for a maximum basal rate of 3x the max daily basal.

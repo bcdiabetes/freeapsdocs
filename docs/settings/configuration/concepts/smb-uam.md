@@ -20,4 +20,4 @@ There are numerous settings related to enabling SMBs in FreeAPS X. Below is the 
 A flow chart will be added here for greater clarity on FreeAPS X SMB decision making.
 
 ## Unannounced Meals
-Unannounced Meal (UAM) provides an alternative method (in addition to or instead of carb entry) for detecting and safely dosing insulin via SMBs in response to significant BG rises, whether they are due to meals, stress/illness, or counterregulatory hormones (adrenaline, cortisol, glucagon, HGH)
+Unannounced Meal (UAM) provides an alternative method (in addition to or instead of carb entry) for detecting and safely dosing insulin via SMBs in response to significant BG rises, whether they are due to meals, stress/illness, or counterregulatory hormones (adrenaline, cortisol, glucagon, HGH). It replaces Advanced Meal Assist (AMA) when enabled. AMA is an older feature that depends on your carbohydrate entries, and sets high temporary basal rates to counteract remaining carbs on board.
