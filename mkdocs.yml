@@ -29,6 +29,7 @@ theme:
           name: Switch to light mode
 
 markdown_extensions:
+    - include-markdown
     - meta
     - abbr
     - admonition
