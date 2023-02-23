@@ -1,10 +1,13 @@
+!!! abstract "Important Settings"
+    - High Temptarget Raises Sensitivity: Enable if you exercise frequently with high temp targets, and you find yourself going low.
+
 # OpenAPS Targets Settings
 ## High Temptarget Raises Sensitivity
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
-Normally FreeAPS X assumes your sensitivity will be lower with higher blood sugar levels. During periods of exercise, some people may instead experience increased sensitivity to insulin. With this feature enabled, setting a high temporary target will decrease the autosens.ratio being utilized for ISF and basal adjustments, resulting in less insulin being delivered overall. This scales with the temporary target set; higher and higher temp targets lead to lower and lower insulin delivery in the form of basal rates and corrections. 
+Normally FreeAPS X assumes your sensitivity will be lower with higher blood sugar levels (resulting in greater amounts of insulin being delivered). During periods of exercise, some people may instead experience increased sensitivity to insulin. With this feature enabled, setting a high temporary target will decrease the autosens ratio being utilized for ISF and basal adjustments, resulting in less insulin being delivered overall. This scales with the temporary target set; higher and higher temp targets lead to lower and lower insulin delivery in the form of basal rates and corrections. 
 
-Note that this setting disables Dynamic ISF at high temp targets.
+Note that this setting also disables Dynamic ISF when high temp targets are set.
 
 ## Low Temptarget Lowers Sensitivity
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.

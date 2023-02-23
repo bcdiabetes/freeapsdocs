@@ -1,4 +1,4 @@
-!!! abstract "Summary"
+!!! abstract "Important Settings"
     This section is entirely visual and does not impact control. 
 
 # Statistics
