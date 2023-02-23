@@ -103,7 +103,7 @@ nav:
                 - 'Auto-sensitivity': 'settings/configuration/concepts/autosens-dynamic.md'
         - 'Pump Settings': 'settings/configuration/pumpsettings.md'
         - 'Basal Profile': 'settings/configuration/basalprofile.md'
-        - 'Insulin Sensitivities': 'settings/configuration/insulinsensitivites.md'
+        - 'Insulin Sensitivities': 'settings/configuration/insulinsensitivities.md'
         - 'Carb Ratios': 'settings/configuration/carbratios.md'
         - 'Target Ranges': 'settings/configuration/targetranges.md'
         - 'Autotune': 'settings/configuration/autotune.md'
