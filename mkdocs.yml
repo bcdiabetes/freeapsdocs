@@ -2,6 +2,7 @@ site_name: FreeAPS X Docs
 theme:
   name: material
   features:
+      - navigation.sections
       - navigation.footer
       - navigation.tabs
       - navigation.tabs.sticky
