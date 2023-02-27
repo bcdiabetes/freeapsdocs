@@ -1,3 +1,7 @@
+{%
+   include-markdown "buildstub.md"
+%}
+
 # Build Free Loop
 
 ## Prepare to Sign
