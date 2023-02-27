@@ -74,9 +74,9 @@ nav:
         - 'Compatible Mac': 'intro/installing/macbuild/computer.md'
         - 'Download Xcode': 'intro/installing/macbuild/xcode.md'
         - 'Xcode Preferences': 'intro/installing/macbuild/xcodepref.md'
-        - 'Building': 'intro/installing/macbuild/buildpaid.md'
+        - 'Build Paid': 'intro/installing/macbuild/buildpaid.md'
         - 'Build Free': 'intro/installing/macbuild/buildfree.md'
-        - 'Testflight': 'intro/installing/macbuild/buildtestflight.md'
+        - 'Build to Testflight': 'intro/installing/macbuild/buildtestflight.md'
         
 - Configure: # Configuring the app
     - 'Devices':
