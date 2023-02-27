@@ -1,0 +1,2 @@
+# Notifications
+Allows configuration of FreeAPS X notifications. Adjust based on your preferences. In some cases, FreeAPS X may predict you as risk of having a low blood sugar event, and recommends you consume a suggested amount of carbs accordingly. Carbs Required Threshold determines the minimum amount of carbs required before FreeAPS X can send a notification. 
