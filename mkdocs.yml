@@ -100,7 +100,6 @@ nav:
             - 'Concepts':
                 - 'Basal, ISF, ICR': 'settings/configuration/concepts/basal-isf-icr.md'
                 - 'Autobolus': 'settings/configuration/concepts/smb-uam.md'
-                - 'Autotune': 'settings/configuration/concepts/autotune.md'
                 - 'Auto-sensitivity': 'settings/configuration/concepts/autosens-dynamic.md'
         - 'Pump Settings': 'settings/configuration/pumpsettings.md'
         - 'Basal Profile': 'settings/configuration/basalprofile.md'
@@ -108,7 +107,6 @@ nav:
         - 'Carb Ratios': 'settings/configuration/carbratios.md'
         - 'Target Ranges': 'settings/configuration/targetranges.md'
         - 'Autotune': 'settings/configuration/autotune.md'
-    - 'Test Settings': 'settings/configuration/test.md'
 
 - Operate: # Operating the app day to day
     - 'Open vs Closed Loop': 'operate/loop.md'
@@ -122,5 +120,3 @@ nav:
 - Resources:
     - 'Citations': 'resources/citations.md'
     - 'BC Diabetes Agreement': 'resources/bcdiabetesagreement.md'
-
-  
