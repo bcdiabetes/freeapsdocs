@@ -1,9 +1,9 @@
+# Dynamic Settings
 !!! abstract "Important Settings"
     - Dynamic ISF and Dynamic CR: Enable for more responsive changes to your current blood glucose and TDD. 
     - Adjustment Factor: Greater 1 makes Dynamic ISF/CR more aggressive (more insulin), while lower than 1 makes Dynamic ISF/CR less aggressive. Adjust by 0.1 steps as needed.
-    - Adjust basal: Enable if your basal rates are otherwise not being adjusted adequately 
+    - Adjust basal: Enable if your basal rates are otherwise not being adjusted adequately.
 
-# Dynamic Settings
 ## Enable Dynamic ISF
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 

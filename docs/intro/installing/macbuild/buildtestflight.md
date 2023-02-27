@@ -1,3 +1,7 @@
+{%
+   include-markdown "buildstub.md"
+%}
+
 ## Introduction
 
 There are several different methods for making use of TestFlight:

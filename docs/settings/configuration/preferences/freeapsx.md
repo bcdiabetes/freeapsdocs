@@ -1,7 +1,7 @@
+# FreeAPS X
 !!! abstract "Important Settings"
     - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; risk of low if you miscount carbs or ICR is too aggressive
 
-# FreeAPS X
 ## Glucose Units
 Allows you to toggle between mmol/L and mg/dl blood glucose units.
 

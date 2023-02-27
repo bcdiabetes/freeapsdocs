@@ -1,3 +1,4 @@
+# OpenAPS SMB Settings
 !!! abstract "Important Settings"
     - Enable SMB Always: Most commonly enabled setting; allows iAPS to provide small correction boluses to make rapid blood sugar adjustments. If you want to configure SMB to only run in certain conditions read below.
     - Max Delta-BG Threshold SMB: Change to 0.3 (30%) for closed loop with UAM enabled.
@@ -6,7 +7,6 @@
     - Max UAM SMB Basal Minutes: Increase to allow UAM to give more insulin in one bolus. Increase if struggling with meal or hormonal highs.
     - Bolus Increment: Change to 0.05 for Omnipod users
 
-# OpenAPS SMB Settings
 ## Enable SMB Always
 Enabling this setting allows SMBs to be delivered if your blood sugar is predicted to go above target. 
 

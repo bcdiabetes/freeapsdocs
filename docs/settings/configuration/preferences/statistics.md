@@ -1,8 +1,6 @@
-!!! abstract "Important Settings"
-    This section is entirely visual and does not impact control. 
-
 # Statistics
-These settings are purely visual and configure the statistical collection.
+!!! abstract "Important Settings"
+    This section is entirely visual and does not impact control.
 
 ### Low Glucose Limit
 Sets the lower blood sugar limit for statistical determiniation of time below range (TBR).
