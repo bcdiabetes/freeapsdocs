@@ -2,6 +2,7 @@
 !!! abstract "Highlights"
     - Enable Dynamic ISF, Dynamic CR and/or Adjust Basal for more rapid adjustments in response to physiological changes in insulin sensitivity
     - Bias the calculated ISF/CR/Basal rates towards more or less aggressive values by increasing or decreasing the adjustment factor accordingly.
+    - Adjustments are limited by autosens max/min.
 
 ## Auto-sensitivity Mode
 Auto-sensitivity (autosens) reviews your last 8 hrs and 24 hrs of data every loop cycle (5 min) and determines whether you have been reacting more or less sensitively to insulin. It then makes conservative temporary adjustments to your basal rates, blood sugar target, and ISF.
