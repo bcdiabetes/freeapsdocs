@@ -1,4 +1,4 @@
-OpenAPS Other Settings
+# OpenAPS Other Settings
 !!! abstract "Highlights"
     None of these settings likely require adjustment from their defaults
 

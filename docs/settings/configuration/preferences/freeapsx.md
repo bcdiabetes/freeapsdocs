@@ -1,6 +1,6 @@
 # FreeAPS X
 !!! abstract "Highlights"
-    - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; risk of low if you miscount carbs or ICR is too aggressive
+    - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 
 ## Glucose Units
 Allows you to toggle between mmol/L and mg/dl blood glucose units.
