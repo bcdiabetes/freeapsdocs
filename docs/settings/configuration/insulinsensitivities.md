@@ -1,8 +1,8 @@
 # Insulin Sensitivity Factor
 !!! abstract "Highlights"
-    - ISF is the most problematic setting for new loopers
-    - It can be transferred from your pump
-    - Adjust by performing a correction and seeing if you reached your glucose target, or by observing autotune.
+    - ISF is the most problematic setting for new loopers.
+    - ISF can be transferred from your pump to start.
+    - Adjust ISF by performing a correction and seeing if you reached your glucose target, or by observing autotune.
 
 ISF, also called insulin correction factor (ICF), refers to the amount of blood glucose in mmol/L one unit of insulin can neutralize.
 
