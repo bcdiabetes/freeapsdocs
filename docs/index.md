@@ -20,4 +20,4 @@ See Configure for more information on FreeAPS X configuration.
 # Contribution
 FreeAPS X is built by a volunteer community. If you are interested in helping as a programmer, you can help contribute to [FreeAPS X](https://github.com/Jon-b-m/middleware), or [OpenAPS](https://github.com/openaps/oref0) code base. 
 
-You can also provide support to your peers via moral support and by helping them troubleshoot common errors on online support groups.
+You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.

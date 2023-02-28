@@ -1,5 +1,5 @@
 # Statistics
-!!! abstract "Important Settings"
+!!! abstract "Highlights"
     This section is entirely visual and does not impact control.
 
 ### Low Glucose Limit

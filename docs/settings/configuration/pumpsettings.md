@@ -1,4 +1,7 @@
 # Pump Settings
+!!! abstract "Highlights"
+    - Max Basal = 4x max daily basal
+    - Max Bolus = Max bolus you give for a meal
 
 ## Delivery Limits
 These are safety limiters for FreeAPS X. For Max Basal, 4 times your highested scheduled basal rate is generally adequate. For Max Bolus, choose the maximum amount of insulin you generally bolus for meals. 

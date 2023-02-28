@@ -1,5 +1,5 @@
 OpenAPS Other Settings
-!!! abstract "Important Settings"
+!!! abstract "Highlights"
     None of these settings likely require adjustment from their defaults
 
 ## Rewind Resets Autosens

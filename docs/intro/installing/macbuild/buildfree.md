@@ -2,8 +2,6 @@
    include-markdown "buildstub.md"
 %}
 
-# Build Free Loop
-
 ## Prepare to Sign
 
 This page is not stand-alone. You typically get here after choosing to Sign Manually after a successful download using the Build Select script.

@@ -1,5 +1,5 @@
 # OpenAPS Targets Settings
-!!! abstract "Important Settings"
+!!! abstract "Highlights"
     - High Temptarget Raises Sensitivity: Enable if you exercise frequently with high temp targets, and you find yourself going low.
 
 ## High Temptarget Raises Sensitivity

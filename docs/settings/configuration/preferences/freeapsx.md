@@ -1,5 +1,5 @@
 # FreeAPS X
-!!! abstract "Important Settings"
+!!! abstract "Highlights"
     - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; risk of low if you miscount carbs or ICR is too aggressive
 
 ## Glucose Units
