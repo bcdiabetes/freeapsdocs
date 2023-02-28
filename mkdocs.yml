@@ -80,8 +80,8 @@ nav:
         
 - Configure: # Configuring the app
     - 'Devices':
-        - 'CGM': 'settings/devices/cgm.md'
         - 'Pump': 'settings/devices/pump.md'
+        - 'CGM': 'settings/devices/cgm.md'
 
     - 'Services':
         - 'Apple Health': 'settings/services/applehealth.md'

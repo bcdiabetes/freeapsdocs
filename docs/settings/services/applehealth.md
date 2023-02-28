@@ -1,2 +1,2 @@
 # Apple Health
-Optional feature that does not play a major role in FreeAPS X function (unlike Loop). Enabling this allows FreeAPS X to store information related to blood sugar readings, insulin dosage and carbohydrates. Useful for those who like to analyse their data with TidePool.
+An optional feature that does not play a major role in FreeAPS X function (unlike the Loop application). Enabling this allows FreeAPS X to store information related to blood sugar readings, insulin dosage and carbohydrates. Useful for those who like to analyse their data with TidePool.
