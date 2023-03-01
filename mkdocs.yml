@@ -63,20 +63,20 @@ plugins:
 nav:
 - Home: 'index.md'
 
-- Set Up: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
-    - 'Requirements':
-        - 'Compatible iPhone': 'intro/requirements/iphone.md'
-        - 'Compatible CGM': 'intro/requirements/cgm.md'
-        - 'Compatible Pump': 'intro/requirements/pump.md'
-        - 'RileyLink': 'intro/requirements/rileylink.md'
-    - 'Installing':
-        - 'Apple Developer Program': 'intro/installing/appledeveloper.md'
-        - 'Compatible Mac': 'intro/installing/macbuild/computer.md'
-        - 'Download Xcode': 'intro/installing/macbuild/xcode.md'
-        - 'Xcode Preferences': 'intro/installing/macbuild/xcodepref.md'
-        - 'Build Paid': 'intro/installing/macbuild/buildpaid.md'
-        - 'Build Free': 'intro/installing/macbuild/buildfree.md'
-        - 'Build to Testflight': 'intro/installing/macbuild/buildtestflight.md'
+# - Set Up: # Theses are taken from loop docs currently and need to be adapted; need to add macro to include docs for build options
+#     - 'Requirements':
+#         - 'Compatible iPhone': 'intro/requirements/iphone.md'
+#         - 'Compatible CGM': 'intro/requirements/cgm.md'
+#         - 'Compatible Pump': 'intro/requirements/pump.md'
+#         - 'RileyLink': 'intro/requirements/rileylink.md'
+#     - 'Installing':
+#         - 'Apple Developer Program': 'intro/installing/appledeveloper.md'
+#         - 'Compatible Mac': 'intro/installing/macbuild/computer.md'
+#         - 'Download Xcode': 'intro/installing/macbuild/xcode.md'
+#         - 'Xcode Preferences': 'intro/installing/macbuild/xcodepref.md'
+#         - 'Build Paid': 'intro/installing/macbuild/buildpaid.md'
+#         - 'Build Free': 'intro/installing/macbuild/buildfree.md'
+#         - 'Build to Testflight': 'intro/installing/macbuild/buildtestflight.md'
         
 - Configure: # Configuring the app
     - 'Devices':
@@ -117,5 +117,8 @@ nav:
     - 'Logs': "troubleshoot/logs.md"
 
 - Resources:
+    - 'Other Loop Systems': 'resources/distribution.md'
     - 'Citations': 'resources/citations.md'
-    - 'BC Diabetes Agreement': 'resources/bcdiabetesagreement.md'
+    - 'BC Diabetes Clients': 
+        - 'Distribution and Updates': 'resources/bcdiabetes/distribution.md'
+        - 'Consent': 'resources/bcdiabetes/bcdiabetesagreement.md'
