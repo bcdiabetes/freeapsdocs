@@ -15,4 +15,4 @@ with another person, it will be helpful for you to visualize what the loop is do
 [For help making a Nightscout account, please see the OpenAPS documentation.](https://openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/nightscout-setup.html)
 
 ## FreeAPS X Setup
-To enable your nightscout connection, input your Nightscout URL including the "https://" and API_SECRET. Select "Allow uploads" so FreeAPS X can share its predictions and settings with Nightscout. 
+To enable your nightscout connection, input your Nightscout URL including the "https://" and your API_SECRET. Select "Allow uploads" so FreeAPS X can share its predictions and settings with Nightscout. 
