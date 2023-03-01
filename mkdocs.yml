@@ -98,7 +98,6 @@ nav:
             - 'Section 6: Target Settings': 'settings/configuration/preferences/targetsettings.md'
             - 'Section 7: Other Settings': 'settings/configuration/preferences/othersettings.md'
             - 'Concepts':
-                - 'Basal, ISF, ICR': 'settings/configuration/concepts/basal-isf-icr.md'
                 - 'Autobolus': 'settings/configuration/concepts/smb-uam.md'
                 - 'Auto-sensitivity': 'settings/configuration/concepts/autosens-dynamic.md'
         - 'Pump Settings': 'settings/configuration/pumpsettings.md'
