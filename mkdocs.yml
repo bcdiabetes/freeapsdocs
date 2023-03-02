@@ -110,11 +110,14 @@ nav:
 - Operate: # Operating the app day to day
     - 'Open vs Closed Loop': 'operate/loop.md'
 
+# - How To: # Adjusting Settings
+#     - 'Exercise': 'howto/exercise.md'
+
 # Troubleshooting and optimizing settings
-- Troubleshoot: 
-    - 'Build Errors': "troubleshoot/builderror.md" # Adapt from loopdocs
-    - 'Debug': "troubleshoot/debug.md"
-    - 'Logs': "troubleshoot/logs.md"
+# - Troubleshoot: 
+#     - 'Build Errors': "troubleshoot/builderror.md" # Adapt from loopdocs
+#     - 'Debug': "troubleshoot/debug.md"
+#     - 'Logs': "troubleshoot/logs.md"
 
 - Resources:
     - 'Other Loop Systems': 'resources/alternative.md'
