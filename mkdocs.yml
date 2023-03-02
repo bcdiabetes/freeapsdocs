@@ -117,7 +117,7 @@ nav:
     - 'Logs': "troubleshoot/logs.md"
 
 - Resources:
-    - 'Other Loop Systems': 'resources/distribution.md'
+    - 'Other Loop Systems': 'resources/alternative.md'
     - 'Citations': 'resources/citations.md'
     - 'BC Diabetes Clients': 
         - 'Distribution and Updates': 'resources/bcdiabetes/distribution.md'
