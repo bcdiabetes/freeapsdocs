@@ -79,6 +79,7 @@ nav:
 #         - 'Build to Testflight': 'intro/installing/macbuild/buildtestflight.md'
         
 - Configure: # Configuring the app
+    - 'Closed Loop': 'settings/loop.md'
     - 'Devices':
         - 'Pump': 'settings/devices/pump.md'
         - 'CGM': 'settings/devices/cgm.md'
@@ -108,7 +109,7 @@ nav:
         - 'Autotune': 'settings/configuration/autotune.md'
 
 - Operate: # Operating the app day to day
-    - 'Open vs Closed Loop': 'operate/loop.md'
+    - 'Interface': 'operate/interface.md'
 
 # - How To: # Adjusting Settings
 #     - 'Exercise': 'howto/exercise.md'

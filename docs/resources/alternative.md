@@ -1,0 +1,1 @@
+# add info about commercial and other software
