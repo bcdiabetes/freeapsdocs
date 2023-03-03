@@ -1,0 +1,1 @@
+https://loopkit.github.io/looptips/how-to/exercise/

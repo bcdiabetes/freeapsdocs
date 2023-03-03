@@ -1,1 +1,2 @@
-# add info about commercial and other software
+# Comparison of Automated Insulin Delivery Systems
+![Comparison Table](img/compare.png)

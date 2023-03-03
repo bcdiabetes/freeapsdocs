@@ -1,5 +1,5 @@
 # Closed Loop
 
-By default, open loop is enabled. This means iAPS will be unable to make adjustments autonomously; it relies on you approving any action it wants to take.
+By default, Open Loop is enabled. This means FreeAPS X will be unable to make adjustments autonomously. The system relies on you approving any adjustments it wants to make.
 
-Closed loop is where the magic happens. If this is your first time looping, it is recommended you keep this setting disabled for the first few days as you learn the system. Attempt to perfect your profile settings (ICR, ISF, basal rates) during this time. You should monitor iAPS's predictions and suggestions and see if they are appropriate for you. Remember that everyone's diabetes is different and there is no one size fits all, so take your time optimizing your settings.
+Closed Loop allows the system to make insulin adjustments automatically. If this is your first time looping, it is recommended you keep this setting temporarly disabled. Try to perfect your profile settings (ICR, ISF, basal rates) during this time to get the best experience. You should monitor FreeAPS X's predictions and suggestions and see if they are appropriate for you. Remember that everyone's diabetes is different and there is no one size fits all, so take your time optimizing your settings.
