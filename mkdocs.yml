@@ -88,6 +88,7 @@ nav:
         - 'Apple Health': 'settings/services/applehealth.md'
         - 'Nightscout': 'settings/services/nightscout.md'
         - 'Notifications': 'settings/services/notifications.md'
+        - 'Fat and Protein Conversion': 'settings/services/fatprotein.md'
 
     - 'Configuration':
         - 'Preferences': 
