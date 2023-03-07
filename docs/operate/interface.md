@@ -28,7 +28,7 @@ At the bottom of the screen, you have four action icons. The left icon is the me
 
 The target icon allows you to set temporary targets. Most common targets are a high target for exercise, and a low target in preparation for meals. 
 
-The insulin drop icon allows you to give manual correction boluses. This is not recommended if you are using FreeAPS X's SMB feature.
+The insulin drop icon allows you to give manual correction boluses. Manually correcting is not recommended if you are using FreeAPS X's SMB and UAM feature.
 
 The rightmost icon allows you to access your iAPS settings.
 
