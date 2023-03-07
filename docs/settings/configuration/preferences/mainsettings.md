@@ -64,7 +64,7 @@ Ex: It is currently 9am and Bill has the following basal profile:
 The maximum temporary basal rate that can be set by FreeAPS X at 9 am is 1 U/hr * 4 = 4 U/hr
 
 ## Autosens Max
-Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) and [Autotune](../concepts/autotune.md) before adjusting this setting.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) and [Autotune](../autotune.md) before adjusting this setting.
 
 This setting determines the maximum ratio autosens can use for its adjustments. Increasing this value allows autosens to make more aggressive adjustments to your basal profile, ISF, and target blood glucose.
 
@@ -73,7 +73,7 @@ If you have Dynamic ISF and/or Dynamic CR, this setting will also limit their ab
 If you have autotune enabled, this setting also limits its ability to make more aggressive adjustments to your ICR, basal profile and ISF.
 
 ## Autosens Min
-Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) and [Autotune](../concepts/autotune.md) before adjusting this setting.
+Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) and [Autotune](../autotune.md) before adjusting this setting.
 
 This setting determine the minimum ratio autosens can use for its adjustments. Decreasing this value allows autosens to make less aggressive adjustments to your basal profile, ISF, and target blood glucose.
 
