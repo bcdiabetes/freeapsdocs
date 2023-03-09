@@ -10,6 +10,6 @@ To ensure updates are disabled:
 4. Repeat this process on any other devices that have FreeAPS X listed in TestFlight.
 
 !!! warning
-    Please be proactive in updating your application at least every 90 days, else you may experience the error message "Beta App has Expired." Additionally, new updates have additional features and fixes for bugs that could be impacting your control.
+    Please be proactive in updating at minimum every 90 days, else you may experience the error message "Beta App has Expired." Updates have fixes for bugs and new features.
 
 To update, first write down or screenshot your current preferences and settings. Then navigate to TestFlight and hit the "Update" button besides the app.

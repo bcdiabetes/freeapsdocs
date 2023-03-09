@@ -111,9 +111,9 @@ nav:
 
 - Operate: # Operating the app day to day
     - 'Interface': 'operate/interface.md'
+    - 'Optimize and Troubleshoot': 'operate/troubleshoot.md'
+    - 'Exercise and Meals': 'operate/temptarget.md'
 
-# - How To: # Adjusting Settings
-#     - 'Exercise': 'howto/exercise.md'
 
 # Troubleshooting and optimizing settings
 # - Troubleshoot: 
