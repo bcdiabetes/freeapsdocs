@@ -11,7 +11,7 @@ Exercise can have immediate and long term effects on glycemic control. Generally
 
 It is important you are consuming enough slow-acting carbohydrates before and after your exercise session. Pack a snack incase a source of simple carbs is needed during your routine. 
 
-FreeAPS X has some quality of life features that can make exercise easier to do while looping. When you plan to exercise, set a temptarget approximately 3 mmol/L above your normal target 2 hours before your exercise. If you have SMB enabled, be sure that ["Allow SMB With High Temptarget"](../settings/configuration/preferences/smbsettings.md) is disabled. Finally, you can enable ["High Temptarget Raises Sensitivity"](../settings/configuration/preferences/targetsettings.md) to prevent FreeAPS X from providing too much insulin during exercise. 
+iAPS has some quality of life features that can make exercise easier to do while looping. When you plan to exercise, set a temptarget approximately 3 mmol/L above your normal target 2 hours before your exercise. If you have SMB enabled, be sure that ["Allow SMB With High Temptarget"](../settings/configuration/preferences/smbsettings.md) is disabled. Finally, you can enable ["High Temptarget Raises Sensitivity"](../settings/configuration/preferences/targetsettings.md) to prevent iAPS from providing too much insulin during exercise. 
 
 ## Pre-Meal
 
@@ -19,4 +19,4 @@ FreeAPS X has some quality of life features that can make exercise easier to do 
     - Set a low temptarget 1-2 hours before meals to help with spikes
     - Enable "Low Temptarget Lowers Sensitivity" to allow for greater insulin delivery
 
-If you plan to eat soon, you may want FreeAPS X to provide you extra room to fill up on carbs. One way you can do this is by setting a temptarget approximately 1 mmol/L below your target, 1-2 hours prior to meals. You can also enable ["Low Temptarget Lowers Sensitivity"](../settings/configuration/preferences/targetsettings.md)  to give yourself more insulin for the upcoming meal and to bring your blood sugar down faster to the pre-meal range.
+If you plan to eat soon, you may want iAPS to provide you extra room to fill up on carbs. One way you can do this is by setting a temptarget approximately 1 mmol/L below your target, 1-2 hours prior to meals. You can also enable ["Low Temptarget Lowers Sensitivity"](../settings/configuration/preferences/targetsettings.md)  to give yourself more insulin for the upcoming meal and to bring your blood sugar down faster to the pre-meal range.

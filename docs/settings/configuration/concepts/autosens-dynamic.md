@@ -39,7 +39,7 @@ When autosens goes to adjust the ISF, it does the following calculation:
 
 Bill is now temporarily set to have an ISF of 2.73.
 
-Dynamic ISF (using the default logarithmic algorithm in FreeAPS X) uses an alternative formula to calculate the autosens.ratio for ISF adjustments:
+Dynamic ISF (using the default logarithmic algorithm in iAPS) uses an alternative formula to calculate the autosens.ratio for ISF adjustments:
 
 - autosens.ratio = profile.sens * AF * TDD * log((BG/peak)+1) / 1800
 - New ISF = (profile set ISF)/(autosens.ratio)
@@ -47,12 +47,12 @@ Dynamic ISF (using the default logarithmic algorithm in FreeAPS X) uses an alter
 This formula takes into consideration your profile set ISF (profile.sens in mg/dl) current blood glucose (BG in mg/dl), total daily dose (TDD over the last 24 hours), insulin peak effect (peak activity normally is 120 min) and a new variable called adjustment factor (AF) that allows for user tuning of Dynamic ISF/CR.
 
 ## Dynamic CR
-This is an experimental feature that alters the carb ratio (CR) based on current blood sugar and total daily dose (TDD). Unlike ISF, ICR was not originally altered by autosens with respect to your detected sensitivty. Using Dynamic CR will lead to a dramatic change in how ICR is calculated by FreeAPS X. Dynamic CR uses a similar formula as Dynamic ISF as described above:
+This is an experimental feature that alters the carb ratio (CR) based on current blood sugar and total daily dose (TDD). Unlike ISF, ICR was not originally altered by autosens with respect to your detected sensitivty. Using Dynamic CR will lead to a dramatic change in how ICR is calculated by iAPS. Dynamic CR uses a similar formula as Dynamic ISF as described above:
 
 - autosens.ratio = profile.sens * AF * TDD * log((BG/peak)+1) / 1800
 - New CR = (profile set CR)/(autosens.ratio)
 
-If you find your CR changes dramatically day to day and FreeAPS X is not providing adequate bolus recommendations, you can test this feature. Note that FreeAPS X is already makes modifications to your recommended boluses without this feature enabled based on your blood glucose target, COB, and IOB.
+If you find your CR changes dramatically day to day and iAPS is not providing adequate bolus recommendations, you can test this feature. Note that iAPS is already makes modifications to your recommended boluses without this feature enabled based on your blood glucose target, COB, and IOB.
 
 Note:
 If the calculated autosens.ratio is greater than 1, the following formula is used to make the resulting CR less aggressive to prevent lows from Dynamic CR: 

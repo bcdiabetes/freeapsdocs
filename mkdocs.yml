@@ -1,4 +1,4 @@
-site_name: FreeAPS X Docs
+site_name: iAPS Docs
 theme:
   name: material
   features:
@@ -92,7 +92,7 @@ nav:
 
     - 'Configuration':
         - 'Preferences': 
-            - 'Section 1: FreeAPS X': 'settings/configuration/preferences/freeapsx.md'
+            - 'Section 1: iAPS': 'settings/configuration/preferences/freeapsx.md'
             - 'Section 2: Statistics': 'settings/configuration/preferences/statistics.md'
             - 'Section 3: Main Settings': 'settings/configuration/preferences/mainsettings.md'
             - 'Section 4: Dynamic Settings': 'settings/configuration/preferences/dynamicsettings.md'

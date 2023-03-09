@@ -1,4 +1,4 @@
-# FreeAPS X
+# iAPS
 !!! abstract "Highlights"
     - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 
@@ -12,7 +12,7 @@ Allows for remote control of FAX using Nightscout.
 <br><span style="color:red";>
 We want to highlight a very important risk before you get started.
 <br><br>
-For safety, always assume a previous remote carb / bolus was delivered whether it shows in Nightscout FreeAPS X. For motivation think of the following example:
+For safety, always assume a previous remote carb / bolus was delivered whether it shows in Nightscout iAPS. For motivation think of the following example:
 <br><br>
 You send a 5 unit remote bolus.
 The bolus is delivered to the Looper.
@@ -26,7 +26,7 @@ You can see the danger of sending duplicate bolus/carbs so be careful. If a remo
 
 To use, navigate to your connect nightscout instance. Click the lock icon on the top right and enter your API-Secret. Next, click the now visible "+" sign on the top right. A "Log a Treatment" menu will open up. 
 
-To enter carbs, select the "carb correction" event type. Fill in the required blanks and click "Submit Form". FreeAPS X will read any carb entries in Nightscout and adjust insulin delivery as configured.
+To enter carbs, select the "carb correction" event type. Fill in the required blanks and click "Submit Form". iAPS will read any carb entries in Nightscout and adjust insulin delivery as configured.
 
 To configure loop status, pump or to bolus, select the "announcement" event type. In additional notes state one of the following options:
 
@@ -38,7 +38,7 @@ To configure loop status, pump or to bolus, select the "announcement" event type
 Note that remote configurations with announcement-type events can only be performed every 10 minutes.
 
 ## Recommended Insulin Fraction
-Recommended insulin fraction is a safety feature built into FreeAPS X. By default, FreeAPS X calculates an "insulin required" value when bolusing for carbs that is half of the insulin actually needed to deal with said meal. FreeAPS X then delivers the remaining insulin via SMBs as the blood sugar starts to rise.
+Recommended insulin fraction is a safety feature built into iAPS. By default, iAPS calculates an "insulin required" value when bolusing for carbs that is half of the insulin actually needed to deal with said meal. iAPS then delivers the remaining insulin via SMBs as the blood sugar starts to rise.
 
 Recommended insulin fraction allows you to alter the amount initially delivered. At its default (1.5), it results in 75% of the required meal bolus being delivered before the meal. You can increase or decrease this to alter the insulin delivered prior to the meal.
 
@@ -46,11 +46,11 @@ Recommended insulin fraction allows you to alter the amount initially delivered.
 After entering carbs, a mealtime bolus will not be suggested or delivered.
 
 ## Display HR on Watch
-Displays your "heart rate" on your iWatch FreeAPS X app
+Displays your "heart rate" on your iWatch iAPS app
 
 Heart rate or heartbeat refers to the wake timer that drives the app when running in the background.For optimum performance, the app should be driven by the continuous glucose monitor (CGM) so the Loop cycle starts with the most recent glucose information available, updates the glucose prediction and then sends commands to the pump, if needed, to modify insulin delivery.
 
 ## Display Statistics
 Visual: Displays statistics including Time in range (TIR), coefficent of variance (CV) and estimated A1c at the bottom of the main screen. 
 
-For advanced users: Enabling this settings also allows FreeAPS X to sync your statistics to the Nightscout API.
+For advanced users: Enabling this settings also allows iAPS to sync your statistics to the Nightscout API.
