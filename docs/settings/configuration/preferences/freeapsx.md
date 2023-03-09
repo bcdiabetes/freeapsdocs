@@ -1,4 +1,4 @@
-# iAPS
+# FreeAPS X
 !!! abstract "Highlights"
     - Recommended Insulin Fraction: Increase to reduce initial spiking with meals; there is a risk of lows if you miscount carbs or your ICR is too aggressive
 

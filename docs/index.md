@@ -1,4 +1,4 @@
-# Welcome to iAPS documentation for BC Diabetes 
+# Welcome to iAPS Documentation
 This is intended as quick guide on installing and configuring [Jon-b-m's](https://github.com/Jon-b-m/freeaps) iAPS fork. Read through the information provided. If you are seeking greater detail, please review the [OpenAPS Documentation](https://openaps.readthedocs.io/en/latest/) and [AndroidAPS Documentation](https://androidaps.readthedocs.io/en/latest/).
 
 ## What is iAPS?
