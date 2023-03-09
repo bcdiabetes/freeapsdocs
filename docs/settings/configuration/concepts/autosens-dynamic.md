@@ -84,4 +84,4 @@ Bill has a TDD of 55 U over the last 24 hours. He has a 14 day TDD average of 48
 
 
 ## Final Thoughts
-- Remember that all autosens ratios calculated in this section are being limited by autosens max and autosens min safety limiters. Additionally, Dynamic CR is had its own safety limiter against too aggressive ratios.
+- Remember that all autosens ratios calculated in this section are being limited by autosens max and autosens min safety limiters. Additionally, Dynamic CR has an inbuilt safety limiter against highly aggressive ratios.

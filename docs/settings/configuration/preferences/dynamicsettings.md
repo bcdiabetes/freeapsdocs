@@ -17,13 +17,13 @@ Dynamic CR alters your ICR every loop cycle based on your current blood glucose 
 ## Adjustment Factor
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
-Adjustment Factor (AF) allows one to bias the Dynamic ISF and Dynamic CR (if they are enabled) towards more or less aggressive results. Maintaining this value at 1 keeps Dynamic ISF/CR at its default. Increasing AF above 1 will result in Dynamic ISF/CR outputting more aggressive values, while decreasing it below 1 will bias the output towards less aggressive values.
+Adjustment Factor (AF) allows one to bias the Dynamic ISF and Dynamic CR (if they are enabled) towards more or less aggressive results. Increasing AF above 1 will result in Dynamic ISF/CR outputting more aggressive values, while decreasing it below 1 will bias the output towards less aggressive values. Its recommended to start with an AF of 0.5-0.8 and to increase as needed.
 
 Example: Bill has Dynamic CR on. His Dynamic CR is calculated to be 1:4 by FreeAPS X based on his current blood glucose, TDD and his set ISF. 
 
 But Bill decides to set his AF to 1.2 because he has found recently that Dynamic CR has not been giving him aggressive enough numbers. FreeAPS X acts accordingly, and increases his CR to something above 1:4 instead (ex: 1:3.5). Note that this is a simplified example. See the section on Dynamic CR for more information.
 
-It is important to understand that AF is not a safety limiter. By increasing the AF, you are are not allowing FreeAPS X to choose both higher and lower values based on your needs. Rather by increasing AF, you are telling the system that ALL of your Dynamically calculated ISF/CR values have not been aggressive enough, and you want the system to make them more aggressive.
+It is important to understand that AF is not a safety limiter. By increasing AF, you are telling the system that ALL of your Dynamically calculated ISF/CR values have not been aggressive enough, and you want the system to make them more aggressive.
 
 The same is true when you lower AF. You are telling the system that ALL dynamically calculated values are too aggressive, and to make them lower.
 
@@ -32,7 +32,7 @@ Dynamic CR and ISF by default use a logarithmic function to perform calculations
 
 This option replaces the logarithmic function with a sigmoid function for Dynamic ISF/CR calculations and alters how AF affects their values (AF becomes akin to a safety limiter unlike how it was used in the logarithmic function).
 
-More information to this section will be added soon. Use this feature at your own risk. Set your AF to half of its current value if you decide to do so, and adjust from there.
+More information to this section will be added soon. Use this feature at your own risk. Set your AF to half of its current value, or 0.4 if you are just starting on FreeAPS X.
 
 ## Weighted Average of TDD. Weight of past 24 hours:
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
