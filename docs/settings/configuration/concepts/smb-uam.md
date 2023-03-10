@@ -10,6 +10,7 @@ Super micro bolus (SMB) gives you small amounts of insulin upfront in the form o
 There are limitations on the size of SMBs. <a href = "https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/oref1.html#understanding-super-micro-bolus-smb">See the OpenAPS documentation for more information.</a>
 
 Notes:
+
 - Please ensure your profile settings are accurate before enabling SMB and UAM. Use autotune over several weeks if you need support with this.
 - Do not perform manual correction boluses with SMB and UAM enabled. You will be at a high risk of having a low.
 
