@@ -102,6 +102,7 @@ nav:
             - 'Concepts':
                 - 'Autobolus': 'settings/configuration/concepts/smb-uam.md'
                 - 'Auto-sensitivity': 'settings/configuration/concepts/autosens-dynamic.md'
+                - 'Sigmoid Function': 'settings/configuration/concepts/sigmoid.md'
         - 'Pump Settings': 'settings/configuration/pumpsettings.md'
         - 'Basal Profile': 'settings/configuration/basalprofile.md'
         - 'Insulin Sensitivities': 'settings/configuration/insulinsensitivities.md'

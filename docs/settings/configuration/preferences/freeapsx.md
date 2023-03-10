@@ -46,9 +46,7 @@ Recommended insulin fraction allows you to alter the amount initially delivered.
 After entering carbs, a mealtime bolus will not be suggested or delivered.
 
 ## Display HR on Watch
-Displays your "heart rate" on your iWatch iAPS app
-
-Heart rate or heartbeat refers to the wake timer that drives the app when running in the background.For optimum performance, the app should be driven by the continuous glucose monitor (CGM) so the Loop cycle starts with the most recent glucose information available, updates the glucose prediction and then sends commands to the pump, if needed, to modify insulin delivery.
+Displays your current heart rate on your iWatch iAPS app
 
 ## Display Statistics
 Visual: Displays statistics including Time in range (TIR), coefficent of variance (CV) and estimated A1c at the bottom of the main screen. 

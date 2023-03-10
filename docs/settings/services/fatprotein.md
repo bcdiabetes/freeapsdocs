@@ -6,9 +6,9 @@
     - Increase your "Override With A Factor Of" by 0.1 increments if you continue to have fat and protein spikes
 
 ## Convert Fat and Protein
-Many individuals may experience slow rises in their blood sugar after fatty or high protein meals. [Enabling "Convert Fat and Protein" allows you to provide a bolus for fat and protein units (FPU).](../../operate/interface.md#actions) This bolus is delivered in segments over a selected period of time to avoid the gradual rise in blood sugar. [For more information, see the omnicalculator.](https://www.omnicalculator.com/health/warsaw-method#what-is-warsaw-method-and-how-does-it-work)
+Many individuals may experience slow rises in their blood sugar after fatty or high protein meals. [Enabling "Convert Fat and Protein" allows you to provide a bolus for fat and protein units (FPU).](../../operate/interface.md#actions) The bolus is delivered in segments over a selected period of time to avoid the gradual rise in blood sugar. This is similar to setting absorption time or eCarbs if coming from Loop or AndroidAPS, respectively. [For more information, click to see the Omnicalculator.](https://www.omnicalculator.com/health/warsaw-method#what-is-warsaw-method-and-how-does-it-work)
 
-Your current ICR was likely compensating for some of the effects on protein and fat on blood sugar. If you choose to enable this setting, you will need to make your ICR less aggressive as needed.
+Your current ICR was likely compensating for some of the effects on protein and fat on blood sugar. If you choose to enable this setting, you will need to make your ICR less aggressive to prevent lows.
 
 ## Conversion Settings
 ### Delay In Minutes

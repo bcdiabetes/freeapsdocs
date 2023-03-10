@@ -30,9 +30,9 @@ The same is true when you lower AF. You are telling the system that ALL dynamica
 ## Use Sigmoid Function
 Dynamic CR and ISF by default use a logarithmic function to perform calculations. Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.
 
-This option replaces the logarithmic function with a sigmoid function for Dynamic ISF/CR calculations and alters how AF affects their values (AF becomes akin to a safety limiter unlike how it was used in the logarithmic function).
+This option replaces the logarithmic function with a sigmoid function for Dynamic ISF/CR calculations.
 
-More information to this section will be added soon. Use this feature at your own risk. Set your AF to half of its current value, or 0.4 if you are just starting on iAPS.
+Please read the dedicated section on [sigmoid](../concepts/sigmoid.md) before enabling this setting. Your adjustment factor should be between 0.4-0.5 on onboarding.
 
 ## Weighted Average of TDD. Weight of past 24 hours:
 Please read [Autosens and Dynamic ISF/ICR](../concepts/autosens-dynamic.md) for more information.

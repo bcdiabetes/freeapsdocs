@@ -18,6 +18,9 @@ Upon installation, you will need to configure your settings appropriately. By de
 See Configure for more information on iAPS configuration.
 
 ## Contribution
-iAPS is built by a volunteer community. If you are interested in helping as a programmer, you can help contribute to [iAPS](https://github.com/Jon-b-m/middleware), or [OpenAPS](https://github.com/openaps/oref0) code base. 
+iAPS is built by a volunteer community. If you are interested in helping as a programmer, you can help contribute to [iAPS](https://github.com/Jon-b-m/freeaps), or [OpenAPS](https://github.com/openaps/oref0) code base. 
 
 You can also provide support in online support groups by helping them adjust their settings and troubleshoot common errors.
+
+## Disclaimer
+The primary author of this documentation is Nabeel Khan who is a diabetes technologist at BC Diabetes.
