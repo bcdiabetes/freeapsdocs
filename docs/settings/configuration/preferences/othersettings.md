@@ -76,7 +76,7 @@ Bill is assumed to have zero carbs on board
 Recommend to keep this value at the default of 1 meaning it will not impact iAPS's calculations. This feature is closely tied to "Remaining Carbs Cap."
 
 ## Remaining Carbs Cap
-This setting is a safety limiter that determines the maximum amount of carbs that are assumed to be absorbed after 4 hours if carb absorption. A minimum of 90 carbs is mandatory for this setting.
+This setting is a safety limiter that determines the maximum amount of carbs that are assumed to be absorbed after 4 hours of carb absorption. A minimum of 90 carbs is mandatory for this setting.
 
 Example: Bill eats 150 carbs. After 4 hours, iAPS calculates a COB of 110. It will truncate that number to 90 carbs.
 
