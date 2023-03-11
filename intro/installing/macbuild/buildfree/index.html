@@ -1,0 +1,1624 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../logo.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.2">
+    
+    
+      
+        <title>Buildfree - iAPS Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7bf56d0a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="iAPS Docs" class="md-header__button md-logo" aria-label="iAPS Docs" data-md-component="logo">
+      
+  <img src="../../../../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iAPS Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Buildfree
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../settings/loop/" class="md-tabs__link">
+        Configure
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../operate/interface/" class="md-tabs__link">
+        Operate
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../resources/alternative/" class="md-tabs__link">
+        Resources
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="iAPS Docs" class="md-nav__button md-logo" aria-label="iAPS Docs" data-md-component="logo">
+      
+  <img src="../../../../logo.png" alt="logo">
+
+    </a>
+    iAPS Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Configure
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Configure
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/loop/" class="md-nav__link">
+        Closed Loop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+          Devices
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Devices
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/devices/pump/" class="md-nav__link">
+        Pump
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/devices/cgm/" class="md-nav__link">
+        CGM
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          Services
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Services
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/services/applehealth/" class="md-nav__link">
+        Apple Health
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/services/nightscout/" class="md-nav__link">
+        Nightscout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/services/notifications/" class="md-nav__link">
+        Notifications
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/services/fatprotein/" class="md-nav__link">
+        Fat and Protein Conversion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          Configuration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Configuration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_1" id="__nav_2_4_1_label" tabindex="0">
+          Preferences
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Preferences
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/freeapsx/" class="md-nav__link">
+        Section 1: iAPS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/statistics/" class="md-nav__link">
+        Section 2: Statistics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/mainsettings/" class="md-nav__link">
+        Section 3: Main Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/dynamicsettings/" class="md-nav__link">
+        Section 4: Dynamic Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/smbsettings/" class="md-nav__link">
+        Section 5: SMB Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/targetsettings/" class="md-nav__link">
+        Section 6: Target Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/preferences/othersettings/" class="md-nav__link">
+        Section 7: Other Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_1_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_1_8" id="__nav_2_4_1_8_label" tabindex="0">
+          Concepts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_4_1_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_4_1_8">
+          <span class="md-nav__icon md-icon"></span>
+          Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/concepts/smb-uam/" class="md-nav__link">
+        Autobolus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/concepts/autosens-dynamic/" class="md-nav__link">
+        Auto-sensitivity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/concepts/sigmoid/" class="md-nav__link">
+        Sigmoid Function
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/pumpsettings/" class="md-nav__link">
+        Pump Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/basalprofile/" class="md-nav__link">
+        Basal Profile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/insulinsensitivities/" class="md-nav__link">
+        Insulin Sensitivities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/carbratios/" class="md-nav__link">
+        Carb Ratios
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/targetranges/" class="md-nav__link">
+        Target Ranges
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../settings/configuration/autotune/" class="md-nav__link">
+        Autotune
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Operate
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Operate
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../operate/interface/" class="md-nav__link">
+        Interface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../operate/troubleshoot/" class="md-nav__link">
+        Optimize and Troubleshoot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../operate/temptarget/" class="md-nav__link">
+        Exercise and Meals
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/alternative/" class="md-nav__link">
+        AID Comparison
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/citations/" class="md-nav__link">
+        Citations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+          BC Diabetes Clients
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          BC Diabetes Clients
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/bcdiabetes/distribution/" class="md-nav__link">
+        Distribution and Updates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../resources/bcdiabetes/bcdiabetesagreement/" class="md-nav__link">
+        Consent
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Headers on this Page">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Headers on this Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-video" class="md-nav__link">
+    Build Video
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-build-loop" class="md-nav__link">
+    GitHub Build Loop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developer-mode" class="md-nav__link">
+    Developer Mode
+  </a>
+  
+    <nav class="md-nav" aria-label="Developer Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepare-your-phone-and-watch" class="md-nav__link">
+    Prepare your Phone and Watch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#download-loop" class="md-nav__link">
+    Download Loop
+  </a>
+  
+    <nav class="md-nav" aria-label="Download Loop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-terminal" class="md-nav__link">
+    Open Terminal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-select-script" class="md-nav__link">
+    Build Select Script
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xcode-errors-with-build-select" class="md-nav__link">
+    XCode Errors with Build-Select
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wait-for-download-to-complete" class="md-nav__link">
+    Wait for Download to Complete
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-was-successful" class="md-nav__link">
+    Download was Successful
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sign-targets" class="md-nav__link">
+    Sign Targets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prepare-to-sign" class="md-nav__link">
+    Prepare to Sign
+  </a>
+  
+    <nav class="md-nav" aria-label="Prepare to Sign">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-the-loop-folder" class="md-nav__link">
+    Select the Loop Folder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-loop-workspace-and-your-phone" class="md-nav__link">
+    Select Loop (Workspace) and Your Phone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-to-a-simulator" class="md-nav__link">
+    Build to a Simulator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-signing-capabilities-tab" class="md-nav__link">
+    Select Signing &amp; Capabilities Tab
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sign-the-targets" class="md-nav__link">
+    Sign the Targets
+  </a>
+  
+    <nav class="md-nav" aria-label="Sign the Targets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#free-account" class="md-nav__link">
+    Free Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-of-free-account-steps" class="md-nav__link">
+    End of Free Account Steps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signing-complete" class="md-nav__link">
+    Signing Complete
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Buildfree</h1>
+
+<!-- BEGIN INCLUDE buildstub.md -->
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Anchor link to this Header on this Page">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Time Estimate</p>
+<ul>
+<li>60-80 minutes for first time builders</li>
+<li>10-15 minutes for repeat builders</li>
+</ul>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Summary</p>
+<p>You will:</p>
+<ul>
+<li>Run the Build Select Script to download Loop code</li>
+<li>Prepare to build the Loop app</li>
+<li>Press the Xcode Build Button to build Loop</li>
+<li>Watch in awe as you build your very own Loop app</li>
+</ul>
+</div>
+<div class="admonition question">
+<p class="admonition-title">FAQs</p>
+<ul>
+<li><strong>Why does Xcode show a colorful spinning icon and not respond to me?</strong> Unfortunately, sometimes Xcode gets confused and you need to force quit the application. See <a href="../build/build_errors.md#xcode-not-responding">Xcode Not Responding</a> for instructions.</li>
+<li>Many more FAQs for building Loop are in-line with the steps that trigger the questions.</li>
+</ul>
+</div>
+<h2 id="build-video">Build Video<a class="headerlink" href="#build-video" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>The Loop and Learn team prepared this <a href="https://youtu.be/gddhljzsNkM">YouTube video</a> showing how to build Loop 2.2.x including the steps required to update if you previously built. The steps are different now. The video may be worth watching, but once you've reviewed it, work through the new build process described on this page.</p>
+<h2 id="github-build-loop">GitHub Build Loop<a class="headerlink" href="#github-build-loop" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>If you previously used <a href="../gh-actions/gh-overview.md">GitHub Build</a> to install Loop on this phone, you must make sure that automatically install is <strong>disabled</strong> in <a href="../gh-actions/gh-deploy.md#install-testflight">TestFlight</a>, or you will not be able to install on that phone with Xcode.</p>
+<h2 id="developer-mode">Developer Mode<a class="headerlink" href="#developer-mode" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>If you are running iOS 15 or watchOS 8 and earlier, you do not have developer mode and can skip ahead to <a href=".#download-loop">Download Loop</a>.</p>
+<p>New with iOS 16 and watchOS 9, you must enable Developer Mode to run or build Loop. (This is true for any app created by Xcode directly on your device.) If you want to know more, click on this <a href="https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device">Apple Link about Developer Mode</a>.</p>
+<p><strong>Loop will not run until you enable Developer Mode for iOS 16.</strong></p>
+<h3 id="prepare-your-phone-and-watch">Prepare your Phone and Watch<a class="headerlink" href="#prepare-your-phone-and-watch" title="Anchor link to this Header on this Page">&para;</a></h3>
+<ul>
+<li>
+<p>If you are running Loop and update to iOS 16 and watchOS 9; Loop will no longer run until you enable Developer Mode and you will see a message similar to the next graphic</p>
+</li>
+<li>
+<p>If you are building to a new Apple Watch - you must first build the app with Xcode before the developer mode will be available.</p>
+<p align="center"><img alt="phone message if trying to run xcode app without developer mode enabled" src="img/phone-developer-mode-required.jpeg" width="300" /></p>
+</li>
+<li>
+<p>If your device uses iOS 16 (and watchOS 9); you must enable Developer Mode to build an app on that device using Xcode or it will show up as an "Unavailable Device" under Xcode</p>
+<p align="center"><img alt="xcode message for device without developer mode enabled" src="img/xcode-developer-mode-not-enabled.svg" width="450" /></p>
+</li>
+</ul>
+<h4 id="developer-mode-on-ios-16-device">Developer Mode on iOS 16 Device<a class="headerlink" href="#developer-mode-on-ios-16-device" title="Anchor link to this Header on this Page">&para;</a></h4>
+<p>To determine if Developer Mode is enabled, go into your phone settings, choose Privacy &amp; Security, scroll to the bottom of the screen and tap on the Developer Mode row and examine the Developer Mode slider.</p>
+<ul>
+<li>If Developer Mode is enabled, the slider will be green and no further action is required</li>
+<li>If Developer Mode is not enabled, the slider will be blank<ul>
+<li>Move the slider so it is green</li>
+<li>Reboot the device when asked</li>
+<li>After the reboot, you will be asked if you want to turn on Developer mode</li>
+<li>Tap on the <code>Turn On</code> option</li>
+</ul>
+</li>
+</ul>
+<h4 id="developer-mode-on-watchos-9-device">Developer Mode on watchOS 9 Device<a class="headerlink" href="#developer-mode-on-watchos-9-device" title="Anchor link to this Header on this Page">&para;</a></h4>
+<div class="admonition warning">
+<p class="admonition-title">Build, Enable, Build</p>
+<p>Reports from users indicate that when you are building to a new Apple Watch - you must first build the app with Xcode before the developer mode will be available. So plan to build with Watch paired, and then enable Developer Mode and build again.</p>
+</div>
+<p>This must be configured on the watch itself (not the watch app on the iPhone). To determine if Developer Mode is enabled, look at the watch face icons and find the Settings icon. Tap on it and scroll to and tap the Privacy &amp; Security icon. Then scroll to the bottom and tap on Developer Mode.</p>
+<ul>
+<li>If Developer Mode is enabled, the slider will be green and no further action is required</li>
+<li>If Developer Mode is not enabled, the slider will be blank<ul>
+<li>Move the slider so it is green</li>
+<li>Reboot the device when asked</li>
+<li>After the reboot, if you are asked if you want to turn on Developer mode</li>
+<li>Tap on the <code>Turn On</code> option</li>
+</ul>
+</li>
+</ul>
+<h2 id="download-loop">Download Loop<a class="headerlink" href="#download-loop" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>This page has the detailed steps to run the Build Select Script to download the Loop code, prepare your computer and build Loop.</p>
+<h3 id="open-terminal">Open Terminal<a class="headerlink" href="#open-terminal" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>Go to the Finder app, click on Applications, then open the Utilities folder.  Locate the Terminal app and double-click Terminal to open a terminal window. The terminal window is very plain looking when you open it. That is normal.</p>
+<h4 id="ensure-a-year">Ensure a Year<a class="headerlink" href="#ensure-a-year" title="Anchor link to this Header on this Page">&para;</a></h4>
+<div class="admonition danger">
+<p class="admonition-title">Rebuild / Update on Same Computer?</p>
+<p>If you used this same computer to build Loop previously and you did not delete provisioning profiles - you will not get a full year with this build.</p>
+<p>If you missed doing the <a href="updating.md#delete-provisioning-profiles">Updating: Delete Provisioning Profiles</a>, do that step now and return to this page.</p>
+<p>or more experienced folks may want to just paste this command into their terminal:</p>
+<div class="highlight"><span class="filename">Copy and Paste to remove Provisioning Profiles</span><pre><span></span><code>rm ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision
+</code></pre></div>
+</div>
+<h3 id="build-select-script">Build Select Script<a class="headerlink" href="#build-select-script" title="Anchor link to this Header on this Page">&para;</a></h3>
+<ul>
+<li>With the release of Loop 3, the build process is different and simpler<ul>
+<li>Please read each step as if you are a new builder</li>
+<li>Don't assume you know what you are doing</li>
+<li><a href="https://www.loopandlearn.org/freeapsdoc">FreeAPS</a> is no longer supported by the Build Select Script</li>
+<li><a href="https://www.loopandlearn.org/github-lnl-patches">Loop 3 with Patches</a> is provided instead</li>
+</ul>
+</li>
+</ul>
+<p>These instructions show each step needed to download Loop using the Build-Select script.</p>
+<div class="admonition note">
+<p class="admonition-title">Optional</p>
+<p>The Build Select Script can also be used to build a companion app, called Loop Follow, and a fork of Loop, which has selected patches added. Follow these links to different websites for more information about those options.</p>
+<p>For those used to seeing FreeAPS here, it has been removed from the Build Select Script.</p>
+<p>Consider using Loop 3 as designed. If you need Libre or want the CustomTypeOne patches, those are provided in the Loop with Patches selection in the Build Select Script.</p>
+<ul>
+<li>Information about <a href="https://github.com/jonfawcett/LoopFollow#readme">Loop Follow</a></li>
+<li>Information about <a href="https://www.loopandlearn.org/build-select/">Loop with Patches</a></li>
+</ul>
+<p>You do not need to know about these options to build Loop.</p>
+</div>
+<p>Copy the line below that starts with <code>/bin/bash</code> by hovering the mouse near the bottom right side of the text and clicking the copy icon (should say Copy to Clipboard when you hover over it). When you click the icon, a message that says “Copied to Clipboard” will appear on your screen.</p>
+<div class="highlight"><span class="filename">Copy and Paste to start the BuildLoop.sh script</span><pre><span></span><code>/bin/bash -c &quot;$(curl -fsSL \
+  https://raw.githubusercontent.com/loopnlearn/LoopBuildScripts/main/BuildLoop.sh)&quot;
+</code></pre></div>
+<p>Paste the line of text into Terminal. Be sure to click anywhere in the terminal before trying to paste. (Ways to paste: CMD-V; or CNTL-click and select from menu or Edit-Paste at top of Mac screen.)</p>
+<p>Read the screen (shown below).  Type 1 and return if you understand the warning and agree.</p>
+<ul>
+<li>Please read what is on the screen as you progress.</li>
+<li>Adjust font size as directed if you have difficulty seeing the directions.</li>
+</ul>
+<p align="center"><img alt="paste the script line into terminal" src="img/bss-01-initial-message.svg" width="700" /></p>
+<p>Next you will see an introduction to the Build-Select script.  Please read this.  To build Loop, you will select the Build Loop option by typing 1 and return.</p>
+<p align="center"><img alt="choose to build Loop" src="img/bss-02-menu-message.svg" width="700" /></p>
+<p>Next you are asked which version of Loop you would like to build. Type 1 and return to build Loop (as shown in the graphic below) or 2 for the fork of Loop with added Libre CGM options and CustomTypeOne patches.</p>
+<p align="center"><img alt="choose which Loop to build" src="img/bss-03-choose-fork.svg" width="700" /></p>
+<h3 id="xcode-errors-with-build-select">XCode Errors with Build-Select<a class="headerlink" href="#xcode-errors-with-build-select" title="Anchor link to this Header on this Page">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">WARNINGS</p>
+<p>If you see errors like these . . .</p>
+<ul>
+<li><code>xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun</code></li>
+<li><code>xcode-select: Failed to locate 'git', requesting installation of command line developer tools</code></li>
+<li><code>xcode-select: error: tool 'xed' requires Xcode</code></li>
+</ul>
+<p>You missed one of these steps:</p>
+<ul>
+<li><a href="step8.md">Install Xcode</a></li>
+<li><a href="step9.md#command-line-tools">Xcode command line tools</a></li>
+</ul>
+</div>
+<h3 id="wait-for-download-to-complete">Wait for Download to Complete<a class="headerlink" href="#wait-for-download-to-complete" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>This download can take from 3 minutes to 30 minutes depending on your download speed.  You can leave the room and return later to check on progress. When you read the words in the terminal, as the script runs, you may see terminology you do not understand - don't worry - you do not need to understand enumeration or submodule or cloning.  You only need to review the display to look for any error messages. </p>
+<p>The next graphic shows terminal messages for the beginning of a successful download.</p>
+<p align="center"><img alt="the beginning of the clone for LoopWorkspace " src="img/build-select-07.png" width="700" /></p>
+<p>When the download completes, the "Check for successful download" message is displayed as shown in the graphic below. You will need to scroll up in the terminal window to look through all the messages output to the terminal from the beginning of the download. (Your messages that start with "Submodule path" may differ.)</p>
+<p align="center"><img alt="download complete - search for errors message" src="img/bss-06-search-for-errors.svg" width="700" /></p>
+<p>If you do not find the word error in your terminal window, continue with <a href=".#download-was-successful">Download was Successful</a>.</p>
+<p>If you see the word "error" in your terminal window:</p>
+<ul>
+<li>Read the error message</li>
+<li>Try to figure out the problem</li>
+<li>If you need help, reach out to your favorite <a href="../intro/loopdocs-how-to.md#how-to-find-help">Loop Social Media</a> site</li>
+<li>Tap any key other than 1, followed by return to cancel</li>
+</ul>
+<h3 id="download-was-successful">Download was Successful<a class="headerlink" href="#download-was-successful" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>If there are no errors, type 1 in the terminal window to continue. At this point you choose how to sign the targets, so first an explanation.</p>
+<h2 id="sign-targets">Sign Targets<a class="headerlink" href="#sign-targets" title="Anchor link to this Header on this Page">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">What does Sign Targets Mean?</p>
+<p>"Sign Targets" in Xcode identifies who built the app. You cannot deploy an app to a phone if you do not sign each target associated with that app.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Experienced Builders</p>
+<p>This replaces several of the steps that used to be required to build Loop.</p>
+</div>
+<p>The first time you use the script, you will be asked how you want to sign the targets. If you have previously run the script and configured your computer to have a permanent file that contains your Apple Developer ID, this question will not be shown. Skip ahead to <a href=".#review-loopconfigoverridexcconfig">Review LoopConfigOverride.xcconfig</a>.</p>
+<p>The next question, as shown in graphic below, is whether you will (1) Sign Automatically or (2) Sign Manually.</p>
+<ul>
+<li>If you are building with a paid developers account, choose option 1, and continue on this page</li>
+<li>If you are building with a Free option or plan to build to a simulator on your computer, choose option 2 and click on <a href="build-free-loop.md">Build Free Loop</a> to move to the page with those instructions</li>
+</ul>
+<p align="center"><img alt="messages for choosing Sign Automatically or Sign Manually" src="img/build-dev-b-01-choose.svg" width="700" /></p>
+<!-- END INCLUDE -->
+
+<h2 id="prepare-to-sign">Prepare to Sign<a class="headerlink" href="#prepare-to-sign" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>This page is not stand-alone. You typically get here after choosing to Sign Manually after a successful download using the Build Select script.</p>
+<p>Normally this option is chosen by people building the app with the Free option or if you want to build to a simulator on your computer.</p>
+<p>If you have a paid developer account and are building Loop 3, you are far better off choosing to configure the permanent override file with your Apple Developer ID. Refer to <a href="step14.md#sign-targets">Sign Targets</a>.</p>
+<p>The instructions found on this page are for the first build.  With the Free version, you need to build every week. Refer to <a href="step14.md#build-again-with-this-download">Build Again with this Download</a>.</p>
+<h3 id="select-the-loop-folder">Select the Loop Folder<a class="headerlink" href="#select-the-loop-folder" title="Anchor link to this Header on this Page">&para;</a></h3>
+<div class="admonition danger">
+<p class="admonition-title">Don't touch that button!</p>
+<p>You will be told exactly where on each screen you should click. Please only click in the designated places.</p>
+</div>
+<p>Follow the directions and compare your Xcode screen to the graphics as you walk through the steps.</p>
+<p>As shown in the GIF below:</p>
+<ul>
+<li>Frame 1: This is what the Xcode screen looks the very first time it is opened after a fresh download<ul>
+<li>You need to click on the indicated Loop folder icon two times</li>
+</ul>
+</li>
+<li>Frame 2: After the 2 clicks, the middle pane of the Xcode window is populated as shown</li>
+</ul>
+<p align="center"><img alt="initial xcode display, click on loop to populate middle pane" src="img/build-229-01.gif" width="750" /></p>
+<h3 id="select-loop-workspace-and-your-phone">Select Loop (Workspace) and Your Phone<a class="headerlink" href="#select-loop-workspace-and-your-phone" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>If this is the <strong>First Time</strong> your phone or watch has been connected to Xcode, you will need to tell the phone and watch to "Trust this Computer".</p>
+<p>The GIF below shows:</p>
+<ul>
+<li>Frame 1: Same as end of previous GIF<ul>
+<li>There's a red rectangle around the dropdown menus</li>
+<li>The menu on the left says "Loop"</li>
+</ul>
+</li>
+<li>Frame 2: Same as Frame 1 with a zoomed inset of the red rectangle<ul>
+<li>You can see Loop has a check mark beside it</li>
+<li>Loop (Workspace) is one line below</li>
+<li>Select Loop (Workspace)</li>
+</ul>
+</li>
+<li>Frame 3: Zoomed inset after selecting Loop (Workspace)</li>
+<li>Frame 4: Desired result of selecting Loop (Workspace) showing your phone</li>
+</ul>
+<p align="center"><img alt="select loop workspace and confirm phone" src="img/build-229-02.gif" width="600" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Most Common Mistake</p>
+<ul>
+<li>The most common mistake in this step is:<ul>
+<li>not selecting Loop (Workspace)</li>
+<li>not selecting your actual phone as shown in the screenshot below</li>
+</ul>
+</li>
+</ul>
+</div>
+<p align="center"><img alt="img/your_device.png" src="img/your_device.png" width="650" /></p>
+<div class="admonition warning">
+<p class="admonition-title">I don't see my phone</p>
+<ul>
+<li>If you don't see your phone in the Devices section, unplug and plug in again</li>
+<li>Still don't see your phone - reboot the phone - and if that doesn't work - reboot the computer</li>
+<li>Still don't see your phone - try a different cable or USB slot</li>
+</ul>
+</div>
+<h3 id="build-to-a-simulator">Build to a Simulator<a class="headerlink" href="#build-to-a-simulator" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>Skip this section if building to a phone and proceed to <a href="#select-signing-capabilities-tab">Select Signing &amp; Capabilities Tab</a>.</p>
+<p>If you want to build to a simulator, follow the directions in this section and skip the rest of this page.</p>
+<ul>
+<li>Simply choose one of the iOS Simulators instead of a phone and build to it<ul>
+<li>The iOS simulator you choose does not need to be the same model as your phone</li>
+</ul>
+</li>
+<li>With a simulator, you do not need to sign targets:<ul>
+<li>You must select Loop (Workspace) and complete the build:<ul>
+<li>If there is a red x at the top right of your Xcode window, you need to fix the <a href="step14.md#package-dependency-error">Package Dependency Error</a> and continue on to Start Build</li>
+<li>If there is not a red x at the top right of your Xcode window, follow the link to <a href="step14.md#start-build">Start Build</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>After a successful build, a simulated phone will appear on your computer and you can interact with the app on that simulated phone</li>
+</ul>
+<h3 id="select-signing-capabilities-tab">Select Signing &amp; Capabilities Tab<a class="headerlink" href="#select-signing-capabilities-tab" title="Anchor link to this Header on this Page">&para;</a></h3>
+<div class="admonition question">
+<p class="admonition-title">What does Signing Targets Mean?</p>
+<p>"Signing Targets" in Xcode identifies who built the app. You cannot deploy an app to a phone without signing each target associated with that app.</p>
+</div>
+<p>The graphic below indicates in red the three places you need to click in order to begin signing targets.</p>
+<ul>
+<li>First, click on the tab labeled <code>Signing &amp; Capabilities</code></li>
+<li>Second, click on the icon labeled <code>Loop</code> under the word <code>TARGETS</code></li>
+<li>Third, click on the dropdown menu (red circle) by the word <code>Team</code></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Click Only where Instructed</p>
+<ul>
+<li>Make sure <code>All</code>, indicated by dashed blue oval, is selected<ul>
+<li>If <code>Debug</code> or <code>Release</code> is accidentally tapped, you will not be able to build</li>
+</ul>
+</li>
+<li>Make sure <code>Automatically manage signing</code>, indicated by dashed blue rectangle, is checked</li>
+</ul>
+</div>
+<p align="center"><img alt="graphic showing Signing &amp; Capabilities tab is highlighted and where to click to sign targets" src="img/xcode-signing.svg" width="750" /></p>
+<h2 id="sign-the-targets">Sign the Targets<a class="headerlink" href="#sign-the-targets" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>It is time to Sign the Targets with your <a href="step9.md#add-apple-id">Apple ID</a>.</p>
+<p>If you chose to sign manually but have a paid account, you can skip the Free Account steps below.</p>
+<p>You will be building multiple targets to make a complete app and must sign each one. With Loop 2.2.x, there are 4 targets. With Loop 3, there are 5 targets.</p>
+<p>Start with the Loop target, the first one on the target list. Choose your Apple ID.</p>
+<p align="center"><img alt="zoom of region where user selects signing team" src="img/team.png" width="400" /></p>
+<h3 id="free-account">Free Account<a class="headerlink" href="#free-account" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>This section is required if you are using the free account.</p>
+<p>Some features of Loop are not available with the Free option, so as you sign, you will need to remove features that are not supported.</p>
+<ol>
+<li>You must remove unsupported capabilities from 2 targets, this is best done as you sign each target:<ul>
+<li><strong>Loop Target:</strong> Push Notifications; Siri and Time Sensitive Notifications</li>
+<li><strong>Watch App Extension Target:</strong> Siri</li>
+</ul>
+</li>
+<li>Add the keyword <code>SIRI_DISABLED</code> to the LoopConfigOverride.xcconfig file<ul>
+<li>Click on the filename in the left pane of Xcode and view it in the Xcode editor</li>
+<li>Examine the file and find the line that starts with <code>SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited)</code></li>
+<li>Insert the new keyword (separated by a space) anywhere after <code>$(inherited)</code> and before the slashes near the end of the line</li>
+</ul>
+</li>
+</ol>
+<p>Details about removing unsupported capabilities:</p>
+<ul>
+<li>You must disable Push Notification, Siri and Time Sensitive Notifications<ul>
+<li>If the target you are signing does not use one of these attributes, no error message will appear when you select (personal team) for that target</li>
+<li>If the target you are signing does use one of these attributes, an error message will appear when you select (personal team) for that target</li>
+</ul>
+</li>
+<li>The Xcode error message starts with "Cannot create . . ." with a list of all the attributes not supported.<ul>
+<li>Scroll down and click on the little trash can icon next to each unsupported attribute</li>
+</ul>
+</li>
+<li>Scroll up and both the "Cannot create . . ." and "No profiles for . . ." error messages are gone</li>
+<li>You are done with this target</li>
+<li>Proceed to the next target</li>
+</ul>
+<h3 id="end-of-free-account-steps">End of Free Account Steps<a class="headerlink" href="#end-of-free-account-steps" title="Anchor link to this Header on this Page">&para;</a></h3>
+<p>Click on each of the three remaining targets shown in the red box below, and repeat the signing steps by choosing the same team name as you selected in the first target. The targets that must be signed prior to building are <strong>Loop</strong>, <strong>Loop Status Extension</strong>, <strong>Watch App</strong>, and <strong>WatchApp Extension</strong> for Loop 2.2.x with the addition of <strong>Loop Intent Extension</strong> for Loop 3.</p>
+<p align="center"><img alt="Xcode window showing the targets that must be signed" src="img/success.png" width="750" /></p>
+<p>After signing the targets, click on the Loop icon under the <code>PROJECTS</code> heading. (Refer to the bright blue box in graphic above - click on that Loop icon.)</p>
+<ul>
+<li>If you skip this step, you may get an "Entitlements" Build Error for either Loop or WatchApp<ul>
+<li>Follow this procedure to fix the error: <a href="build_errors.md#entitlements-error">Entitlements Error</a></li>
+<li>Much easier to just click on Loop under <code>Projects</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="signing-complete">Signing Complete<a class="headerlink" href="#signing-complete" title="Anchor link to this Header on this Page">&para;</a></h2>
+<p>Now that you have signed your app, return to the Build Loop page:</p>
+<ul>
+<li>If there is a red x at the top right of your Xcode window, you need to fix the <a href="step14.md#package-dependency-error">Package Dependency Error</a></li>
+<li>If there is not a red x at the top right of your Xcode window, you can return to the <a href="step14.md#start-build">Start Build</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.sections", "navigation.footer", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.code.copy", "content.tooltips"], "search": "../../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.fc8c2696.min.js"></script>
+      
+        <script src="../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
