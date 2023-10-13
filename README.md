@@ -1,2 +1,1 @@
-# freeapsdocs
- Documentation on Jon's iAPS Branch
+incorporated into https://github.com/Artificial-Pancreas/iAPSdocs
