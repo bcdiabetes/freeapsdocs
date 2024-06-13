@@ -1,3 +1,8 @@
+# NOTE - THESE DOCUMENTS HAVE BEEN INCORPORATED AND SUPERSEEDED BY https://iaps.readthedocs.io/en/main/ and https://docs.diy-trio.org/en/latest/index.html. THEY REMAIN HERE AS AN ARCHIVE.
+
+
+
+
 # Welcome to iAPS Documentation
 This is intended as quick guide on installing and configuring [Jon-b-m's](https://github.com/Jon-b-m/freeaps) iAPS fork. Read through the information provided. If you are seeking greater detail, please review the [OpenAPS Documentation](https://openaps.readthedocs.io/en/latest/) and [AndroidAPS Documentation](https://androidaps.readthedocs.io/en/latest/).
 
